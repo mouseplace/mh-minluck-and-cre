@@ -1,0 +1,17 @@
+{
+  "name": "mh-minluck-and-cre",
+  "version": "1.0.0",
+  "description": "",
+  "main": "mh-minluck-and-cre.user.js",
+  "scripts": {
+    "lint": "npx eslint *.js -c .eslintrc.json"
+  },
+  "author": "Brad Parbs <brad@bradparbs.com> (https://bradparbs.com/)",
+  "license": "MIT",
+  "dependencies": {
+    "eslint": "^8.16.0"
+  },
+  "devDependencies": {
+    "@wordpress/eslint-plugin": "^12.9.0"
+  }
+}
