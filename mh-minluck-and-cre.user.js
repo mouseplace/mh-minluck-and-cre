@@ -1,14 +1,13 @@
 // ==UserScript==
-// @name         MH - minluck
-// @description  Shows hunt statistics on the camp page
-// @author       Chromatical
+// @name         🐭️ MouseHunt - Minluck & Catch Rate Estimate
+// @version      1.0.0
+// @description  View the minluck and catch rate estimate, right on the camp page.
+// @license      MIT
+// @author       bradp
+// @namespace    bradp
 // @match        https://www.mousehuntgame.com/*
-// @match        https://apps.facebook.com/mousehunt/*
-// @icon         https://www.google.com/s2/favicons?domain=mousehuntgame.com
-// @version      2.2.2
+// @icon         https://brrad.com/mouse.png
 // @grant        none
-// @run-at	     document-end
-// @namespace https://greasyfork.org/users/748165
 // ==/UserScript==
 
 // eslint-disable-next-line no-undef
