@@ -55,6 +55,7 @@
             "asyncArrow": "always"
         }],
         "space-in-parens": ["error", "never"],
-        "spaced-comment": ["error", "always"]
+        "spaced-comment": ["error", "always"],
+        "quote-props": ["error", "consistent-as-needed"]
     }
 }

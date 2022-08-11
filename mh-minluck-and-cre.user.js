@@ -89,7 +89,7 @@ const allMiceInfo = {
 		power: 54000,
 		effs: [0, 0, 0, 0, 0, 0, 0, 0, 0, 2500],
 	},
-	Acolyte: {
+	'Acolyte': {
 		power: 18000,
 		effs: [25, 0, 175, 0, 0, 0, 25, 0, 0, 0],
 	},
@@ -101,11 +101,11 @@ const allMiceInfo = {
 		power: 81690,
 		effs: [500, 500, 500, 500, 0, 500, 500, 500, 500, 0],
 	},
-	Aether: {
+	'Aether': {
 		power: 9800,
 		effs: [0, 0, 0, 0, 0, 125, 0, 275, 0, 0],
 	},
-	Aged: {
+	'Aged': {
 		power: 9000,
 		effs: [0, 0, 0, 0, 0, 175, 0, 0, 0, 0],
 	},
@@ -117,15 +117,15 @@ const allMiceInfo = {
 		power: 1000,
 		effs: [10, 10, 10, 10, 0, 10, 10, 10, 10, 100],
 	},
-	Alchemist: {
+	'Alchemist': {
 		power: 1930,
 		effs: [0, 0, 0, 175, 0, 100, 0, 100, 0, 0],
 	},
-	Alnilam: {
+	'Alnilam': {
 		power: 5500,
 		effs: [0, 0, 0, 0, 0, 0, 0, 175, 0, 0],
 	},
-	Alnitak: {
+	'Alnitak': {
 		power: 6150,
 		effs: [0, 0, 0, 175, 0, 0, 0, 0, 0, 0],
 	},
@@ -153,11 +153,11 @@ const allMiceInfo = {
 		power: 16700,
 		effs: [100, 0, 300, 0, 0, 0, 0, 0, 0, 0],
 	},
-	Angelfish: {
+	'Angelfish': {
 		power: 4960,
 		effs: [0, 0, 0, 100, 0, 0, 0, 0, 0, 0],
 	},
-	Angler: {
+	'Angler': {
 		power: 8709,
 		effs: [0, 0, 0, 100, 0, 0, 0, 0, 0, 0],
 	},
@@ -165,7 +165,7 @@ const allMiceInfo = {
 		power: 3499,
 		effs: [0, 0, 0, 0, 0, 0, 0, 0, 200, 0],
 	},
-	Aquos: {
+	'Aquos': {
 		power: 4600,
 		effs: [100, 100, 100, 100, 25, 75, 400, 75, 0, 0],
 	},
@@ -177,7 +177,7 @@ const allMiceInfo = {
 		power: 72000,
 		effs: [0, 0, 0, 0, 0, 0, 0, 0, 0, 900],
 	},
-	Archer: {
+	'Archer': {
 		power: 1500,
 		effs: [0, 0, 0, 0, 0, 100, 0, 175, 0, 0],
 	},
@@ -201,7 +201,7 @@ const allMiceInfo = {
 		power: 13601,
 		effs: [100, 0, 300, 0, 0, 0, 0, 0, 0, 0],
 	},
-	Assassin: {
+	'Assassin': {
 		power: 13175,
 		effs: [0, 0, 0, 0, 0, 100, 0, 175, 0, 0],
 	},
@@ -221,7 +221,7 @@ const allMiceInfo = {
 		power: 20250,
 		effs: [100, 0, 300, 0, 0, 0, 0, 0, 0, 0],
 	},
-	Automorat: {
+	'Automorat': {
 		power: 3751,
 		effs: [0, 0, 0, 0, 0, 0, 0, 0, 200, 0],
 	},
@@ -233,15 +233,15 @@ const allMiceInfo = {
 		power: 72929,
 		effs: [50, 0, 200, 0, 0, 0, 25, 0, 0, 0],
 	},
-	Bandit: {
+	'Bandit': {
 		power: 100,
 		effs: [25, 25, 25, 25, 25, 200, 25, 100, 100, 0],
 	},
-	Bark: {
+	'Bark': {
 		power: 5000,
 		effs: [0, 0, 0, 100, 0, 0, 0, 0, 0, 0],
 	},
-	Barkshell: {
+	'Barkshell': {
 		power: 8000,
 		effs: [0, 0, 0, 100, 0, 0, 0, 0, 0, 0],
 	},
@@ -253,15 +253,15 @@ const allMiceInfo = {
 		power: 5400,
 		effs: [0, 0, 0, 100, 0, 0, 0, 0, 0, 0],
 	},
-	Barracuda: {
+	'Barracuda': {
 		power: 8600,
 		effs: [0, 0, 0, 100, 0, 0, 0, 0, 0, 0],
 	},
-	Bartender: {
+	'Bartender': {
 		power: 2250,
 		effs: [0, 0, 0, 0, 0, 0, 0, 0, 200, 0],
 	},
-	Bat: {
+	'Bat': {
 		power: 515,
 		effs: [100, 0, 100, 0, 0, 100, 200, 25, 0, 0],
 	},
@@ -273,7 +273,7 @@ const allMiceInfo = {
 		power: 10851,
 		effs: [100, 0, 300, 0, 0, 0, 0, 0, 0, 0],
 	},
-	Bear: {
+	'Bear': {
 		power: 700,
 		effs: [100, 0, 0, 100, 0, 100, 100, 175, 100, 0],
 	},
@@ -285,15 +285,15 @@ const allMiceInfo = {
 		power: 3000,
 		effs: [0, 0, 0, 0, 0, 0, 0, 175, 0, 0],
 	},
-	Berserker: {
+	'Berserker': {
 		power: 600,
 		effs: [50, 50, 50, 50, 25, 50, 50, 200, 0, 0],
 	},
-	Berzerker: {
+	'Berzerker': {
 		power: 8250,
 		effs: [0, 0, 0, 0, 0, 0, 0, 0, 0, 175],
 	},
-	Betta: {
+	'Betta': {
 		power: 4960,
 		effs: [0, 0, 0, 100, 0, 0, 0, 0, 0, 0],
 	},
@@ -309,15 +309,15 @@ const allMiceInfo = {
 		power: 250,
 		effs: [100, 100, 100, 175, 0, 100, 100, 100, 100, 0],
 	},
-	Biohazard: {
+	'Biohazard': {
 		power: 12999,
 		effs: [0, 0, 0, 100, 0, 0, 0, 0, 0, 0],
 	},
-	Bionic: {
+	'Bionic': {
 		power: 220,
 		effs: [100, 0, 100, 100, 0, 100, 100, 100, 100, 0],
 	},
-	Birthday: {
+	'Birthday': {
 		power: 765,
 		effs: [100, 100, 100, 100, 100, 100, 100, 100, 100, 100],
 	},
@@ -341,7 +341,7 @@ const allMiceInfo = {
 		power: 4010,
 		effs: [100, 100, 100, 100, 0, 100, 100, 100, 100, 100],
 	},
-	Blacksmith: {
+	'Blacksmith': {
 		power: 27899,
 		effs: [0, 0, 0, 0, 0, 300, 0, 300, 300, 0],
 	},
@@ -357,7 +357,7 @@ const allMiceInfo = {
 		power: 1800,
 		effs: [101, 101, 101, 101, 101, 101, 101, 101, 101, 300],
 	},
-	Bookborn: {
+	'Bookborn': {
 		power: 6100,
 		effs: [0, 0, 0, 0, 0, 125, 0, 200, 0, 0],
 	},
@@ -365,7 +365,7 @@ const allMiceInfo = {
 		power: 755,
 		effs: [100, 100, 100, 100, 0, 100, 100, 100, 100, 100],
 	},
-	Bottled: {
+	'Bottled': {
 		power: 3600,
 		effs: [0, 0, 0, 175, 0, 100, 0, 100, 0, 0],
 	},
@@ -381,11 +381,11 @@ const allMiceInfo = {
 		power: 2100,
 		effs: [0, 0, 0, 0, 0, 0, 0, 0, 200, 0],
 	},
-	Brawny: {
+	'Brawny': {
 		power: 882,
 		effs: [10, 10, 10, 10, 0, 10, 10, 10, 10, 100],
 	},
-	Breakdancer: {
+	'Breakdancer': {
 		power: 750,
 		effs: [100, 100, 100, 100, 100, 100, 100, 100, 100, 100],
 	},
@@ -393,19 +393,19 @@ const allMiceInfo = {
 		power: 3500,
 		effs: [100, 100, 0, 0, 0, 0, 100, 0, 0, 0],
 	},
-	Briegull: {
+	'Briegull': {
 		power: 635,
 		effs: [0, 0, 0, 175, 0, 100, 0, 100, 0, 0],
 	},
-	Brimstone: {
+	'Brimstone': {
 		power: 3200,
 		effs: [150, 0, 125, 0, 0, 0, 200, 0, 0, 0],
 	},
-	Brown: {
+	'Brown': {
 		power: 3,
 		effs: [100, 100, 100, 100, 0, 100, 100, 100, 100, 100],
 	},
-	Bruticle: {
+	'Bruticle': {
 		power: 16800,
 		effs: [0, 0, 0, 200, 0, 0, 0, 100, 0, 0],
 	},
@@ -413,15 +413,15 @@ const allMiceInfo = {
 		power: 58920,
 		effs: [0, 600, 0, 0, 0, 0, 0, 0, 0, 0],
 	},
-	Buccaneer: {
+	'Buccaneer': {
 		power: 4544,
 		effs: [0, 0, 0, 175, 0, 100, 0, 100, 0, 0],
 	},
-	Buckethead: {
+	'Buckethead': {
 		power: 500,
 		effs: [100, 100, 100, 100, 100, 100, 100, 100, 100, 100],
 	},
-	Builder: {
+	'Builder': {
 		power: 510,
 		effs: [100, 100, 100, 100, 0, 100, 100, 100, 100, 100],
 	},
@@ -429,7 +429,7 @@ const allMiceInfo = {
 		power: 818250,
 		effs: [0, 0, 0, 0, 0, 0, 0, 0, 0, 7500],
 	},
-	Burglar: {
+	'Burglar': {
 		power: 2100,
 		effs: [100, 100, 100, 100, 0, 100, 100, 100, 125, 100],
 	},
@@ -441,19 +441,19 @@ const allMiceInfo = {
 		power: 100,
 		effs: [100, 100, 100, 175, 0, 100, 100, 100, 100, 0],
 	},
-	Calalilly: {
+	'Calalilly': {
 		power: 6000,
 		effs: [0, 0, 0, 100, 0, 0, 0, 0, 0, 0],
 	},
-	Calligraphy: {
+	'Calligraphy': {
 		power: 888,
 		effs: [101, 101, 101, 101, 101, 101, 101, 101, 300, 300],
 	},
-	Camoflower: {
+	'Camoflower': {
 		power: 9000,
 		effs: [0, 0, 0, 100, 0, 0, 0, 0, 0, 0],
 	},
-	Camofusion: {
+	'Camofusion': {
 		power: 14500,
 		effs: [0, 0, 0, 100, 0, 0, 0, 0, 0, 0],
 	},
@@ -469,11 +469,11 @@ const allMiceInfo = {
 		power: 1750,
 		effs: [101, 101, 101, 101, 101, 101, 101, 101, 101, 300],
 	},
-	Cannonball: {
+	'Cannonball': {
 		power: 3499,
 		effs: [0, 0, 0, 0, 0, 0, 0, 0, 200, 0],
 	},
-	Captain: {
+	'Captain': {
 		power: 6885,
 		effs: [0, 0, 0, 175, 0, 100, 0, 100, 0, 0],
 	},
@@ -493,7 +493,7 @@ const allMiceInfo = {
 		power: 9000,
 		effs: [0, 0, 0, 50, 0, 50, 0, 50, 0, 0],
 	},
-	Cardshark: {
+	'Cardshark': {
 		power: 4500,
 		effs: [0, 0, 0, 0, 0, 0, 0, 0, 200, 0],
 	},
@@ -501,7 +501,7 @@ const allMiceInfo = {
 		power: 2200,
 		effs: [100, 100, 100, 100, 0, 100, 100, 100, 100, 100],
 	},
-	Caretaker: {
+	'Caretaker': {
 		power: 1600,
 		effs: [0, 0, 0, 100, 0, 100, 0, 175, 0, 0],
 	},
@@ -509,7 +509,7 @@ const allMiceInfo = {
 		power: 9998,
 		effs: [0, 0, 0, 100, 0, 0, 0, 0, 0, 0],
 	},
-	Carnivore: {
+	'Carnivore': {
 		power: 15099,
 		effs: [0, 0, 0, 100, 0, 0, 0, 0, 0, 0],
 	},
@@ -517,7 +517,7 @@ const allMiceInfo = {
 		power: 8400,
 		effs: [0, 0, 0, 0, 0, 0, 0, 0, 0, 315],
 	},
-	Cavalier: {
+	'Cavalier': {
 		power: 1270,
 		effs: [50, 50, 50, 50, 25, 50, 50, 200, 0, 0],
 	},
@@ -525,7 +525,7 @@ const allMiceInfo = {
 		power: 3630,
 		effs: [0, 0, 100, 50, 0, 0, 0, 0, 0, 0],
 	},
-	Centaur: {
+	'Centaur': {
 		power: 5690,
 		effs: [100, 0, 0, 100, 0, 100, 100, 175, 100, 0],
 	},
@@ -537,11 +537,11 @@ const allMiceInfo = {
 		power: 1400,
 		effs: [0, 0, 0, 0, 0, 0, 0, 0, 0, 100],
 	},
-	Chameleon: {
+	'Chameleon': {
 		power: 635,
 		effs: [100, 0, 0, 100, 0, 100, 100, 175, 100, 0],
 	},
-	Champion: {
+	'Champion': {
 		power: 12000,
 		effs: [0, 0, 0, 175, 0, 0, 0, 0, 0, 0],
 	},
@@ -561,7 +561,7 @@ const allMiceInfo = {
 		power: 1010,
 		effs: [100, 100, 100, 100, 100, 100, 100, 100, 100, 100],
 	},
-	Cherry: {
+	'Cherry': {
 		power: 1500,
 		effs: [100, 0, 0, 100, 0, 100, 100, 175, 100, 0],
 	},
@@ -577,11 +577,11 @@ const allMiceInfo = {
 		power: 1260,
 		effs: [0, 0, 0, 0, 0, 0, 100, 0, 0, 0],
 	},
-	Chipper: {
+	'Chipper': {
 		power: 4500,
 		effs: [0, 0, 0, 100, 0, 0, 0, 0, 0, 0],
 	},
-	Chitinous: {
+	'Chitinous': {
 		power: 14000,
 		effs: [0, 0, 0, 0, 0, 0, 200, 0, 0, 0],
 	},
@@ -597,15 +597,15 @@ const allMiceInfo = {
 		power: 460,
 		effs: [100, 100, 100, 100, 0, 100, 100, 100, 100, 100],
 	},
-	Chrono: {
+	'Chrono': {
 		power: 25450,
 		effs: [25, 0, 175, 0, 0, 0, 25, 0, 0, 0],
 	},
-	Chronomaster: {
+	'Chronomaster': {
 		power: 3000,
 		effs: [0, 0, 0, 0, 0, 0, 0, 0, 0, 300],
 	},
-	Cinderstorm: {
+	'Cinderstorm': {
 		power: 9410,
 		effs: [0, 100, 0, 0, 0, 0, 0, 0, 0, 0],
 	},
@@ -641,11 +641,11 @@ const allMiceInfo = {
 		power: 33400,
 		effs: [0, 0, 0, 600, 0, 0, 0, 0, 0, 0],
 	},
-	Clownfish: {
+	'Clownfish': {
 		power: 5110,
 		effs: [0, 0, 0, 100, 0, 0, 0, 0, 0, 0],
 	},
-	Clump: {
+	'Clump': {
 		power: 1300,
 		effs: [10, 10, 10, 10, 0, 10, 10, 10, 10, 100],
 	},
@@ -661,7 +661,7 @@ const allMiceInfo = {
 		power: 2250,
 		effs: [0, 0, 0, 0, 0, 0, 0, 0, 200, 0],
 	},
-	Cobweb: {
+	'Cobweb': {
 		power: 1100,
 		effs: [101, 101, 101, 101, 101, 101, 101, 101, 101, 300],
 	},
@@ -677,11 +677,11 @@ const allMiceInfo = {
 		power: 510,
 		effs: [100, 100, 100, 100, 0, 100, 100, 100, 100, 100],
 	},
-	Conjurer: {
+	'Conjurer': {
 		power: 6000,
 		effs: [0, 0, 0, 0, 0, 0, 0, 175, 0, 0],
 	},
-	Conqueror: {
+	'Conqueror': {
 		power: 6600,
 		effs: [0, 0, 0, 0, 0, 0, 0, 175, 0, 0],
 	},
@@ -689,11 +689,11 @@ const allMiceInfo = {
 		power: 18435,
 		effs: [300, 300, 300, 300, 0, 300, 300, 300, 300, 0],
 	},
-	Cook: {
+	'Cook': {
 		power: 2650,
 		effs: [0, 0, 0, 175, 0, 100, 0, 100, 0, 0],
 	},
-	Coral: {
+	'Coral': {
 		power: 5400,
 		effs: [0, 0, 0, 100, 0, 0, 0, 0, 0, 0],
 	},
@@ -729,7 +729,7 @@ const allMiceInfo = {
 		power: 4550,
 		effs: [0, 100, 0, 0, 0, 0, 0, 0, 0, 0],
 	},
-	Corkataur: {
+	'Corkataur': {
 		power: 18630,
 		effs: [0, 600, 0, 0, 0, 0, 0, 0, 0, 0],
 	},
@@ -741,7 +741,7 @@ const allMiceInfo = {
 		power: 17150,
 		effs: [100, 0, 125, 0, 0, 0, 0, 0, 0, 0],
 	},
-	Corrupt: {
+	'Corrupt': {
 		power: 6351,
 		effs: [100, 0, 0, 0, 0, 0, 0, 0, 0, 0],
 	},
@@ -801,15 +801,15 @@ const allMiceInfo = {
 		power: 1000,
 		effs: [10, 10, 10, 10, 0, 10, 10, 10, 10, 100],
 	},
-	Cowardly: {
+	'Cowardly': {
 		power: 4,
 		effs: [100, 100, 100, 100, 0, 100, 100, 100, 100, 100],
 	},
-	Cowbell: {
+	'Cowbell': {
 		power: 570,
 		effs: [50, 50, 50, 50, 25, 50, 50, 200, 0, 0],
 	},
-	Crabolia: {
+	'Crabolia': {
 		power: 4900,
 		effs: [0, 0, 0, 100, 0, 0, 0, 0, 0, 0],
 	},
@@ -889,7 +889,7 @@ const allMiceInfo = {
 		power: 20500,
 		effs: [0, 0, 200, 0, 0, 0, 0, 0, 0, 0],
 	},
-	Crystalback: {
+	'Crystalback': {
 		power: 10925,
 		effs: [0, 0, 200, 0, 0, 0, 0, 0, 0, 0],
 	},
@@ -897,7 +897,7 @@ const allMiceInfo = {
 		power: 6575,
 		effs: [0, 0, 100, 50, 0, 0, 0, 0, 0, 0],
 	},
-	Cumulost: {
+	'Cumulost': {
 		power: 19100,
 		effs: [0, 0, 100, 0, 0, 0, 0, 0, 0, 0],
 	},
@@ -917,7 +917,7 @@ const allMiceInfo = {
 		power: 600,
 		effs: [100, 100, 100, 100, 100, 100, 100, 100, 100, 100],
 	},
-	Cupid: {
+	'Cupid': {
 		power: 680,
 		effs: [100, 100, 100, 100, 0, 100, 100, 100, 100, 100],
 	},
@@ -925,7 +925,7 @@ const allMiceInfo = {
 		power: 800,
 		effs: [100, 0, 0, 100, 0, 100, 100, 175, 100, 0],
 	},
-	Cursed: {
+	'Cursed': {
 		power: 4225,
 		effs: [100, 0, 0, 0, 0, 0, 0, 0, 0, 0],
 	},
@@ -961,7 +961,7 @@ const allMiceInfo = {
 		power: 3499,
 		effs: [0, 0, 0, 0, 0, 0, 0, 0, 200, 0],
 	},
-	Cutpurse: {
+	'Cutpurse': {
 		power: 6650,
 		effs: [0, 0, 0, 0, 0, 0, 0, 0, 0, 200],
 	},
@@ -973,7 +973,7 @@ const allMiceInfo = {
 		power: 24375,
 		effs: [100, 100, 100, 100, 0, 100, 100, 100, 100, 0],
 	},
-	Cuttle: {
+	'Cuttle': {
 		power: 3990,
 		effs: [0, 0, 0, 100, 0, 0, 0, 0, 0, 0],
 	},
@@ -985,15 +985,15 @@ const allMiceInfo = {
 		power: 880,
 		effs: [10, 10, 10, 10, 0, 10, 10, 10, 10, 100],
 	},
-	Cyborg: {
+	'Cyborg': {
 		power: 1340,
 		effs: [10, 10, 10, 10, 0, 10, 10, 10, 10, 100],
 	},
-	Cycloness: {
+	'Cycloness': {
 		power: 10800,
 		effs: [150, 50, 0, 0, 0, 0, 100, 0, 0, 0],
 	},
-	Cyclops: {
+	'Cyclops': {
 		power: 1600,
 		effs: [100, 0, 0, 100, 0, 100, 100, 175, 100, 0],
 	},
@@ -1005,7 +1005,7 @@ const allMiceInfo = {
 		power: 500,
 		effs: [100, 100, 100, 100, 100, 100, 100, 100, 100, 100],
 	},
-	Dancer: {
+	'Dancer': {
 		power: 1280,
 		effs: [50, 50, 50, 50, 25, 50, 50, 200, 0, 0],
 	},
@@ -1037,7 +1037,7 @@ const allMiceInfo = {
 		power: 71999,
 		effs: [1000, 0, 0, 0, 0, 0, 100, 0, 0, 0],
 	},
-	Daydreamer: {
+	'Daydreamer': {
 		power: 12565,
 		effs: [100, 100, 100, 100, 0, 100, 100, 100, 100, 0],
 	},
@@ -1045,7 +1045,7 @@ const allMiceInfo = {
 		power: 24251,
 		effs: [100, 0, 300, 0, 0, 0, 300, 0, 0, 0],
 	},
-	Deep: {
+	'Deep': {
 		power: 94990,
 		effs: [0, 0, 0, 100, 0, 0, 0, 0, 0, 0],
 	},
@@ -1053,15 +1053,15 @@ const allMiceInfo = {
 		power: 7500,
 		effs: [0, 0, 0, 100, 0, 0, 0, 0, 0, 0],
 	},
-	Defender: {
+	'Defender': {
 		power: 8400,
 		effs: [0, 0, 0, 0, 0, 0, 0, 175, 0, 0],
 	},
-	Dehydrated: {
+	'Dehydrated': {
 		power: 2000,
 		effs: [0, 0, 0, 100, 0, 0, 0, 0, 0, 0],
 	},
-	Demolitions: {
+	'Demolitions': {
 		power: 2300,
 		effs: [100, 0, 0, 0, 0, 100, 100, 100, 0, 0],
 	},
@@ -1069,11 +1069,11 @@ const allMiceInfo = {
 		power: 11150,
 		effs: [0, 0, 0, 100, 0, 0, 0, 0, 0, 0],
 	},
-	Derpicorn: {
+	'Derpicorn': {
 		power: 998,
 		effs: [0, 0, 0, 0, 0, 200, 0, 125, 0, 0],
 	},
-	Derpshark: {
+	'Derpshark': {
 		power: 11302,
 		effs: [0, 0, 0, 100, 0, 0, 0, 0, 0, 0],
 	},
@@ -1101,11 +1101,11 @@ const allMiceInfo = {
 		power: 4900,
 		effs: [0, 0, 0, 75, 0, 100, 0, 75, 0, 0],
 	},
-	Desperado: {
+	'Desperado': {
 		power: 4500,
 		effs: [0, 0, 0, 0, 0, 0, 0, 0, 200, 0],
 	},
-	Destructoy: {
+	'Destructoy': {
 		power: 370,
 		effs: [100, 100, 100, 100, 0, 100, 100, 100, 100, 100],
 	},
@@ -1113,15 +1113,15 @@ const allMiceInfo = {
 		power: 5520,
 		effs: [0, 0, 0, 0, 0, 0, 0, 0, 100, 0],
 	},
-	Diamond: {
+	'Diamond': {
 		power: 400,
 		effs: [100, 0, 100, 100, 0, 100, 100, 100, 100, 0],
 	},
-	Diamondhide: {
+	'Diamondhide': {
 		power: 48748,
 		effs: [0, 0, 200, 0, 0, 0, 0, 0, 0, 0],
 	},
-	Dinosuit: {
+	'Dinosuit': {
 		power: 900,
 		effs: [100, 100, 100, 100, 100, 100, 100, 100, 100, 100],
 	},
@@ -1137,7 +1137,7 @@ const allMiceInfo = {
 		power: 45000,
 		effs: [0, 0, 0, 0, 0, 100, 0, 175, 0, 0],
 	},
-	Doktor: {
+	'Doktor': {
 		power: 1150,
 		effs: [10, 10, 10, 10, 0, 10, 10, 10, 10, 100],
 	},
@@ -1149,15 +1149,15 @@ const allMiceInfo = {
 		power: 13194,
 		effs: [0, 100, 0, 75, 0, 75, 0, 75, 0, 0],
 	},
-	Dragon: {
+	'Dragon': {
 		power: 74800,
 		effs: [0, 900, 0, 0, 0, 0, 0, 0, 0, 0],
 	},
-	Dragonbreather: {
+	'Dragonbreather': {
 		power: 17790,
 		effs: [0, 100, 0, 0, 0, 0, 0, 0, 0, 0],
 	},
-	Dragoon: {
+	'Dragoon': {
 		power: 38400,
 		effs: [0, 400, 0, 0, 0, 0, 0, 0, 0, 0],
 	},
@@ -1173,11 +1173,11 @@ const allMiceInfo = {
 		power: 947,
 		effs: [10, 10, 10, 10, 0, 10, 10, 10, 10, 100],
 	},
-	Drudge: {
+	'Drudge': {
 		power: 7900,
 		effs: [100, 0, 300, 0, 0, 0, 0, 0, 0, 0],
 	},
-	Drummer: {
+	'Drummer': {
 		power: 1000,
 		effs: [50, 50, 50, 50, 25, 50, 50, 200, 0, 0],
 	},
@@ -1189,11 +1189,11 @@ const allMiceInfo = {
 		power: 2305,
 		effs: [0, 0, 0, 0, 0, 0, 0, 0, 0, 100],
 	},
-	Dunehopper: {
+	'Dunehopper': {
 		power: 5000,
 		effs: [0, 0, 0, 0, 0, 0, 100, 0, 0, 0],
 	},
-	Dwarf: {
+	'Dwarf': {
 		power: 40,
 		effs: [100, 100, 100, 100, 0, 100, 100, 100, 100, 100],
 	},
@@ -1201,15 +1201,15 @@ const allMiceInfo = {
 		power: 2295,
 		effs: [100, 0, 0, 100, 0, 100, 100, 175, 100, 0],
 	},
-	Eclipse: {
+	'Eclipse': {
 		power: 37399,
 		effs: [1000, 1000, 100000, 1000, 25, 1000, 1000, 1000, 0, 0],
 	},
-	Eel: {
+	'Eel': {
 		power: 4960,
 		effs: [0, 0, 0, 100, 0, 0, 0, 0, 0, 0],
 	},
-	Effervescent: {
+	'Effervescent': {
 		power: 13500,
 		effs: [0, 0, 0, 0, 0, 125, 0, 250, 0, 0],
 	},
@@ -1221,7 +1221,7 @@ const allMiceInfo = {
 		power: 1250,
 		effs: [100, 100, 100, 100, 0, 100, 100, 100, 100, 100],
 	},
-	Eggscavator: {
+	'Eggscavator': {
 		power: 2200,
 		effs: [100, 100, 100, 100, 0, 100, 100, 100, 100, 100],
 	},
@@ -1237,11 +1237,11 @@ const allMiceInfo = {
 		power: 1400,
 		effs: [100, 100, 100, 100, 100, 100, 100, 100, 100, 100],
 	},
-	Elder: {
+	'Elder': {
 		power: 8800,
 		effs: [0, 0, 0, 175, 0, 0, 0, 0, 0, 0],
 	},
-	Elf: {
+	'Elf': {
 		power: 755,
 		effs: [100, 100, 100, 100, 0, 100, 100, 100, 100, 100],
 	},
@@ -1285,7 +1285,7 @@ const allMiceInfo = {
 		power: 25350,
 		effs: [0, 600, 0, 0, 0, 0, 0, 0, 0, 0],
 	},
-	Enginseer: {
+	'Enginseer': {
 		power: 3930,
 		effs: [0, 0, 0, 100, 0, 0, 0, 0, 0, 0],
 	},
@@ -1345,7 +1345,7 @@ const allMiceInfo = {
 		power: 10851,
 		effs: [100, 0, 300, 0, 0, 0, 0, 0, 0, 0],
 	},
-	Explorator: {
+	'Explorator': {
 		power: 4700,
 		effs: [0, 0, 0, 0, 0, 175, 0, 150, 0, 0],
 	},
@@ -1357,7 +1357,7 @@ const allMiceInfo = {
 		power: 1000,
 		effs: [100, 100, 100, 100, 100, 100, 100, 100, 100, 100],
 	},
-	Fairy: {
+	'Fairy': {
 		power: 2500,
 		effs: [100, 0, 0, 100, 0, 100, 100, 175, 100, 0],
 	},
@@ -1373,15 +1373,15 @@ const allMiceInfo = {
 		power: 12200,
 		effs: [0, 0, 0, 0, 0, 300, 0, 300, 300, 0],
 	},
-	Farmhand: {
+	'Farmhand': {
 		power: 600,
 		effs: [100, 100, 100, 100, 0, 100, 100, 100, 100, 100],
 	},
-	Farrier: {
+	'Farrier': {
 		power: 2250,
 		effs: [0, 0, 0, 0, 0, 0, 0, 0, 200, 0],
 	},
-	Fencer: {
+	'Fencer': {
 		power: 225,
 		effs: [50, 50, 50, 50, 25, 50, 50, 200, 0, 0],
 	},
@@ -1393,15 +1393,15 @@ const allMiceInfo = {
 		power: 12675,
 		effs: [0, 0, 0, 0, 0, 0, 200, 0, 0, 0],
 	},
-	Fiddler: {
+	'Fiddler': {
 		power: 2000,
 		effs: [50, 50, 50, 50, 25, 50, 50, 200, 0, 0],
 	},
-	Field: {
+	'Field': {
 		power: 5,
 		effs: [100, 100, 100, 100, 0, 100, 100, 100, 100, 100],
 	},
-	Fiend: {
+	'Fiend': {
 		power: 11000,
 		effs: [125, 125, 125, 400, 25, 75, 125, 75, 0, 0],
 	},
@@ -1409,15 +1409,15 @@ const allMiceInfo = {
 		power: 5095,
 		effs: [0, 0, 0, 0, 0, 0, 100, 0, 0, 0],
 	},
-	Finder: {
+	'Finder': {
 		power: 2350,
 		effs: [0, 0, 0, 0, 0, 0, 0, 175, 0, 0],
 	},
-	Firebreather: {
+	'Firebreather': {
 		power: 15401,
 		effs: [0, 0, 0, 0, 0, 0, 0, 150, 0, 0],
 	},
-	Firefly: {
+	'Firefly': {
 		power: 3691,
 		effs: [0, 0, 0, 0, 0, 0, 0, 150, 0, 0],
 	},
@@ -1437,7 +1437,7 @@ const allMiceInfo = {
 		power: 9200,
 		effs: [0, 0, 100, 100, 0, 0, 0, 0, 0, 0],
 	},
-	Flutterby: {
+	'Flutterby': {
 		power: 6248,
 		effs: [0, 0, 0, 0, 0, 125, 0, 200, 0, 0],
 	},
@@ -1445,11 +1445,11 @@ const allMiceInfo = {
 		power: 8000,
 		effs: [150, 50, 0, 0, 0, 0, 100, 0, 0, 0],
 	},
-	Flying: {
+	'Flying': {
 		power: 50,
 		effs: [100, 100, 100, 100, 0, 100, 100, 100, 100, 100],
 	},
-	Fog: {
+	'Fog': {
 		power: 160,
 		effs: [100, 0, 100, 100, 0, 100, 100, 100, 100, 0],
 	},
@@ -1485,7 +1485,7 @@ const allMiceInfo = {
 		power: 39150,
 		effs: [200, 200, 200, 200, 0, 200, 200, 200, 200, 0],
 	},
-	Foxy: {
+	'Foxy': {
 		power: 1650,
 		effs: [100, 0, 0, 100, 0, 100, 100, 175, 100, 0],
 	},
@@ -1501,11 +1501,11 @@ const allMiceInfo = {
 		power: 85,
 		effs: [100, 100, 100, 100, 0, 100, 100, 100, 100, 100],
 	},
-	Frog: {
+	'Frog': {
 		power: 590,
 		effs: [100, 0, 0, 100, 0, 100, 100, 175, 100, 0],
 	},
-	Frostbite: {
+	'Frostbite': {
 		power: 14399,
 		effs: [0, 0, 0, 200, 0, 0, 0, 100, 0, 0],
 	},
@@ -1521,11 +1521,11 @@ const allMiceInfo = {
 		power: 280,
 		effs: [100, 0, 100, 100, 0, 100, 100, 100, 100, 0],
 	},
-	Frozen: {
+	'Frozen': {
 		power: 80,
 		effs: [100, 0, 100, 100, 0, 100, 100, 100, 100, 0],
 	},
-	Fuel: {
+	'Fuel': {
 		power: 3253,
 		effs: [0, 0, 0, 0, 0, 0, 0, 0, 200, 0],
 	},
@@ -1545,7 +1545,7 @@ const allMiceInfo = {
 		power: 28901,
 		effs: [100, 0, 300, 0, 0, 0, 0, 0, 0, 0],
 	},
-	Funglore: {
+	'Funglore': {
 		power: 8525,
 		effs: [0, 0, 100, 100, 0, 0, 0, 0, 0, 0],
 	},
@@ -1553,11 +1553,11 @@ const allMiceInfo = {
 		power: 3175,
 		effs: [0, 100, 0, 0, 0, 0, 0, 0, 0, 0],
 	},
-	Gargantuamouse: {
+	'Gargantuamouse': {
 		power: 93997,
 		effs: [50, 50000, 0, 25, 0, 25, 0, 25, 0, 0],
 	},
-	Gargoyle: {
+	'Gargoyle': {
 		power: 5010,
 		effs: [200, 0, 100, 0, 0, 0, 100, 0, 0, 0],
 	},
@@ -1569,7 +1569,7 @@ const allMiceInfo = {
 		power: 5000,
 		effs: [0, 0, 0, 100, 0, 0, 0, 0, 0, 0],
 	},
-	Gemorpher: {
+	'Gemorpher': {
 		power: 8501,
 		effs: [0, 0, 200, 0, 0, 0, 0, 0, 0, 0],
 	},
@@ -1585,7 +1585,7 @@ const allMiceInfo = {
 		power: 2000,
 		effs: [100, 100, 100, 100, 0, 100, 100, 100, 100, 100],
 	},
-	Ghost: {
+	'Ghost': {
 		power: 2200,
 		effs: [100, 0, 100, 0, 0, 25, 200, 25, 0, 0],
 	},
@@ -1601,7 +1601,7 @@ const allMiceInfo = {
 		power: 1400,
 		effs: [10, 10, 10, 10, 0, 10, 10, 10, 10, 100],
 	},
-	Gingerbread: {
+	'Gingerbread': {
 		power: 370,
 		effs: [100, 100, 100, 100, 0, 100, 100, 100, 100, 100],
 	},
@@ -1609,7 +1609,7 @@ const allMiceInfo = {
 		power: 510,
 		effs: [100, 100, 100, 100, 0, 100, 100, 100, 100, 100],
 	},
-	Gladiator: {
+	'Gladiator': {
 		power: 15600,
 		effs: [0, 0, 0, 0, 0, 175, 0, 0, 0, 0],
 	},
@@ -1621,11 +1621,11 @@ const allMiceInfo = {
 		power: 27899,
 		effs: [0, 0, 0, 0, 0, 300, 0, 300, 300, 0],
 	},
-	Glazy: {
+	'Glazy': {
 		power: 205,
 		effs: [100, 100, 100, 100, 0, 100, 100, 100, 100, 100],
 	},
-	Glitchpaw: {
+	'Glitchpaw': {
 		power: 785,
 		effs: [100, 100, 100, 100, 100, 100, 100, 100, 100, 100],
 	},
@@ -1633,19 +1633,19 @@ const allMiceInfo = {
 		power: 820,
 		effs: [100, 0, 100, 0, 0, 25, 200, 25, 0, 0],
 	},
-	Goblin: {
+	'Goblin': {
 		power: 2290,
 		effs: [100, 0, 0, 100, 0, 100, 175, 100, 0, 0],
 	},
-	Gold: {
+	'Gold': {
 		power: 350,
 		effs: [100, 0, 100, 100, 0, 100, 100, 100, 100, 0],
 	},
-	Goldleaf: {
+	'Goldleaf': {
 		power: 2100,
 		effs: [100, 0, 0, 100, 0, 100, 100, 175, 100, 0],
 	},
-	Golem: {
+	'Golem': {
 		power: 6885,
 		effs: [200, 0, 100, 0, 0, 0, 100, 0, 0, 0],
 	},
@@ -1653,7 +1653,7 @@ const allMiceInfo = {
 		power: 11175,
 		effs: [10, 10, 10, 10, 0, 10, 10, 10, 10, 100],
 	},
-	Gorgon: {
+	'Gorgon': {
 		power: 9500,
 		effs: [200, 0, 100, 0, 0, 0, 100, 0, 0, 0],
 	},
@@ -1661,7 +1661,7 @@ const allMiceInfo = {
 		power: 3500,
 		effs: [101, 101, 101, 101, 101, 101, 101, 101, 101, 300],
 	},
-	Gourdborg: {
+	'Gourdborg': {
 		power: 1800,
 		effs: [101, 101, 101, 101, 101, 101, 101, 101, 101, 300],
 	},
@@ -1673,11 +1673,11 @@ const allMiceInfo = {
 		power: 330997,
 		effs: [0, 0, 0, 0, 0, 0, 0, 0, 0, 200],
 	},
-	Grandfather: {
+	'Grandfather': {
 		power: 7000,
 		effs: [0, 0, 0, 0, 0, 0, 0, 175, 0, 0],
 	},
-	Granite: {
+	'Granite': {
 		power: 185,
 		effs: [100, 0, 100, 100, 0, 100, 100, 100, 100, 0],
 	},
@@ -1701,7 +1701,7 @@ const allMiceInfo = {
 		power: 2100,
 		effs: [100, 100, 100, 100, 0, 100, 100, 100, 100, 100],
 	},
-	Grey: {
+	'Grey': {
 		power: 2,
 		effs: [100, 100, 100, 100, 0, 100, 100, 100, 100, 100],
 	},
@@ -1709,7 +1709,7 @@ const allMiceInfo = {
 		power: 2500,
 		effs: [101, 101, 101, 101, 101, 101, 101, 101, 101, 300],
 	},
-	Greyrun: {
+	'Greyrun': {
 		power: 913,
 		effs: [10, 10, 10, 10, 0, 10, 10, 10, 10, 100],
 	},
@@ -1721,7 +1721,7 @@ const allMiceInfo = {
 		power: 12475,
 		effs: [0, 0, 0, 0, 0, 100, 0, 0, 0, 0],
 	},
-	Grubling: {
+	'Grubling': {
 		power: 1200,
 		effs: [0, 0, 0, 0, 0, 0, 100, 0, 0, 0],
 	},
@@ -1729,15 +1729,15 @@ const allMiceInfo = {
 		power: 4000,
 		effs: [0, 0, 0, 0, 0, 0, 100, 0, 0, 0],
 	},
-	Grunt: {
+	'Grunt': {
 		power: 4620,
 		effs: [0, 0, 0, 0, 0, 175, 0, 0, 0, 0],
 	},
-	Guardian: {
+	'Guardian': {
 		power: 13200,
 		effs: [0, 0, 0, 0, 0, 175, 0, 0, 0, 0],
 	},
-	Guppy: {
+	'Guppy': {
 		power: 4900,
 		effs: [0, 0, 0, 100, 0, 0, 0, 0, 0, 0],
 	},
@@ -1745,11 +1745,11 @@ const allMiceInfo = {
 		power: 4000,
 		effs: [50, 50, 50, 50, 25, 50, 50, 200, 0, 0],
 	},
-	Gyrologer: {
+	'Gyrologer': {
 		power: 18050,
 		effs: [0, 0, 0, 0, 0, 0, 0, 100, 0, 0],
 	},
-	Hapless: {
+	'Hapless': {
 		power: 570,
 		effs: [0, 0, 0, 0, 0, 100, 0, 175, 0, 0],
 	},
@@ -1761,7 +1761,7 @@ const allMiceInfo = {
 		power: 4590,
 		effs: [0, 0, 0, 0, 0, 0, 0, 0, 0, 216],
 	},
-	Hardboiled: {
+	'Hardboiled': {
 		power: 2500,
 		effs: [100, 100, 100, 100, 0, 100, 100, 100, 100, 100],
 	},
@@ -1773,7 +1773,7 @@ const allMiceInfo = {
 		power: 2600,
 		effs: [100, 100, 100, 100, 0, 100, 100, 100, 100, 100],
 	},
-	Harpy: {
+	'Harpy': {
 		power: 14500,
 		effs: [100, 0, 0, 100, 0, 100, 175, 100, 0, 0],
 	},
@@ -1781,15 +1781,15 @@ const allMiceInfo = {
 		power: 10867,
 		effs: [0, 0, 0, 0, 0, 0, 200, 100, 0, 0],
 	},
-	Harvester: {
+	'Harvester': {
 		power: 20700,
 		effs: [0, 0, 0, 0, 0, 0, 200, 100, 0, 0],
 	},
-	Hazmat: {
+	'Hazmat': {
 		power: 5799,
 		effs: [0, 0, 0, 100, 0, 0, 0, 0, 0, 0],
 	},
-	Healer: {
+	'Healer': {
 		power: 3650,
 		effs: [0, 0, 0, 100, 0, 175, 0, 100, 0, 0],
 	},
@@ -1801,7 +1801,7 @@ const allMiceInfo = {
 		power: 5000,
 		effs: [0, 0, 0, 100, 0, 0, 0, 0, 0, 0],
 	},
-	Herc: {
+	'Herc': {
 		power: 21625,
 		effs: [0, 0, 0, 0, 0, 100, 0, 0, 0, 0],
 	},
@@ -1813,11 +1813,11 @@ const allMiceInfo = {
 		power: 11900,
 		effs: [100, 0, 300, 0, 0, 0, 0, 0, 0, 0],
 	},
-	Hoarder: {
+	'Hoarder': {
 		power: 70,
 		effs: [100, 100, 100, 100, 0, 100, 100, 100, 100, 100],
 	},
-	Hollowed: {
+	'Hollowed': {
 		power: 3500,
 		effs: [100, 100, 100, 100, 0, 100, 100, 100, 100, 200],
 	},
@@ -1825,7 +1825,7 @@ const allMiceInfo = {
 		power: 4000,
 		effs: [100, 100, 100, 100, 0, 100, 100, 100, 100, 200],
 	},
-	Hollowhead: {
+	'Hollowhead': {
 		power: 750,
 		effs: [101, 101, 101, 101, 101, 101, 101, 101, 101, 300],
 	},
@@ -1833,11 +1833,11 @@ const allMiceInfo = {
 		power: 1300,
 		effs: [100, 100, 0, 0, 0, 0, 100, 0, 0, 0],
 	},
-	Hookshot: {
+	'Hookshot': {
 		power: 4250,
 		effs: [0, 0, 0, 0, 0, 0, 0, 0, 200, 0],
 	},
-	Hope: {
+	'Hope': {
 		power: 10,
 		effs: [100, 100, 100, 100, 0, 100, 100, 100, 100, 100],
 	},
@@ -1849,23 +1849,23 @@ const allMiceInfo = {
 		power: 2300,
 		effs: [0, 0, 0, 0, 0, 0, 0, 150, 0, 0],
 	},
-	Huntereater: {
+	'Huntereater': {
 		power: 12551,
 		effs: [0, 0, 200, 0, 0, 0, 0, 0, 0, 0],
 	},
-	Hurdle: {
+	'Hurdle': {
 		power: 1250,
 		effs: [100, 100, 100, 100, 0, 100, 100, 100, 100, 100],
 	},
-	Hydra: {
+	'Hydra': {
 		power: 5000,
 		effs: [0, 0, 0, 175, 0, 100, 0, 175, 0, 0],
 	},
-	Hydrologist: {
+	'Hydrologist': {
 		power: 4970,
 		effs: [0, 0, 0, 100, 0, 0, 0, 0, 0, 0],
 	},
-	Hydrophobe: {
+	'Hydrophobe': {
 		power: 1995,
 		effs: [0, 0, 0, 0, 0, 200, 0, 125, 0, 0],
 	},
@@ -1877,35 +1877,35 @@ const allMiceInfo = {
 		power: 755,
 		effs: [100, 100, 100, 100, 0, 100, 100, 100, 100, 100],
 	},
-	Iceblade: {
+	'Iceblade': {
 		power: 7700,
 		effs: [0, 0, 0, 100, 0, 0, 0, 0, 0, 0],
 	},
-	Iceblock: {
+	'Iceblock': {
 		power: 5400,
 		effs: [0, 0, 0, 100, 0, 0, 0, 0, 0, 0],
 	},
-	Icebreaker: {
+	'Icebreaker': {
 		power: 5000,
 		effs: [0, 0, 0, 100, 0, 0, 0, 0, 0, 0],
 	},
-	Icewing: {
+	'Icewing': {
 		power: 25000,
 		effs: [0, 0, 0, 100, 0, 0, 0, 0, 0, 0],
 	},
-	Icicle: {
+	'Icicle': {
 		power: 11340,
 		effs: [0, 0, 0, 200, 0, 0, 0, 100, 0, 0],
 	},
-	Ignatia: {
+	'Ignatia': {
 		power: 9400,
 		effs: [0, 100, 0, 0, 0, 0, 0, 0, 0, 0],
 	},
-	Ignis: {
+	'Ignis': {
 		power: 2300,
 		effs: [100, 100, 100, 100, 25, 75, 400, 75, 0, 0],
 	},
-	Impersonator: {
+	'Impersonator': {
 		power: 5,
 		effs: [25, 25, 25, 25, 25, 200, 25, 100, 100, 0],
 	},
@@ -1925,7 +1925,7 @@ const allMiceInfo = {
 		power: 4800,
 		effs: [0, 0, 0, 100, 0, 75, 0, 75, 0, 0],
 	},
-	Infiltrator: {
+	'Infiltrator': {
 		power: 12500,
 		effs: [0, 0, 0, 0, 0, 125, 0, 250, 0, 0],
 	},
@@ -1937,19 +1937,19 @@ const allMiceInfo = {
 		power: 8250,
 		effs: [100, 0, 0, 0, 0, 100, 100, 100, 0, 0],
 	},
-	Jellyfish: {
+	'Jellyfish': {
 		power: 4300,
 		effs: [0, 0, 0, 100, 0, 0, 0, 0, 0, 0],
 	},
-	Joy: {
+	'Joy': {
 		power: 85,
 		effs: [100, 100, 100, 100, 0, 100, 100, 100, 100, 100],
 	},
-	Juliyes: {
+	'Juliyes': {
 		power: 2999,
 		effs: [100, 100, 100, 100, 0, 100, 100, 100, 100, 100],
 	},
-	Jurassic: {
+	'Jurassic': {
 		power: 13650,
 		effs: [0, 0, 0, 0, 0, 0, 200, 0, 0, 0],
 	},
@@ -1957,11 +1957,11 @@ const allMiceInfo = {
 		power: 59640,
 		effs: [0, 900, 0, 0, 0, 0, 0, 0, 0, 0],
 	},
-	Karmachameleon: {
+	'Karmachameleon': {
 		power: 1500,
 		effs: [10, 10, 10, 10, 0, 10, 10, 10, 10, 100],
 	},
-	Keeper: {
+	'Keeper': {
 		power: 3485,
 		effs: [200, 0, 100, 0, 0, 0, 100, 0, 0, 0],
 	},
@@ -1981,11 +1981,11 @@ const allMiceInfo = {
 		power: 22275,
 		effs: [100, 100, 100, 100, 0, 100, 100, 100, 100, 0],
 	},
-	Knight: {
+	'Knight': {
 		power: 700,
 		effs: [50, 50, 50, 50, 25, 50, 50, 200, 0, 0],
 	},
-	Koimaid: {
+	'Koimaid': {
 		power: 2240,
 		effs: [0, 0, 0, 100, 0, 0, 0, 0, 0, 0],
 	},
@@ -2001,7 +2001,7 @@ const allMiceInfo = {
 		power: 18500,
 		effs: [0, 0, 0, 100, 0, 0, 0, 0, 0, 0],
 	},
-	Lambent: {
+	'Lambent': {
 		power: 1350,
 		effs: [10, 10, 10, 10, 0, 10, 10, 10, 10, 100],
 	},
@@ -2021,19 +2021,19 @@ const allMiceInfo = {
 		power: 9512,
 		effs: [100, 100, 100, 100, 0, 100, 100, 100, 100, 0],
 	},
-	Lawbender: {
+	'Lawbender': {
 		power: 9680,
 		effs: [0, 0, 0, 0, 0, 0, 0, 0, 100, 0],
 	},
-	Leprechaun: {
+	'Leprechaun': {
 		power: 27200,
 		effs: [100, 100, 100, 100, 0, 100, 100, 100, 100, 100],
 	},
-	Leviathan: {
+	'Leviathan': {
 		power: 13706,
 		effs: [0, 0, 0, 175, 0, 100, 0, 100, 0, 0],
 	},
-	Lich: {
+	'Lich': {
 		power: 20700,
 		effs: [200, 0, 100, 0, 0, 0, 100, 0, 0, 0],
 	},
@@ -2053,11 +2053,11 @@ const allMiceInfo = {
 		power: 3000,
 		effs: [0, 0, 0, 100, 0, 0, 0, 0, 0, 0],
 	},
-	Lockpick: {
+	'Lockpick': {
 		power: 10,
 		effs: [25, 25, 25, 25, 25, 200, 25, 100, 100, 0],
 	},
-	Longtail: {
+	'Longtail': {
 		power: 80,
 		effs: [100, 100, 100, 100, 0, 100, 100, 100, 100, 100],
 	},
@@ -2065,7 +2065,7 @@ const allMiceInfo = {
 		power: 12000,
 		effs: [0, 0, 0, 100, 0, 0, 0, 0, 0, 0],
 	},
-	Lost: {
+	'Lost': {
 		power: 6425,
 		effs: [100, 0, 125, 0, 0, 0, 0, 0, 0, 0],
 	},
@@ -2077,15 +2077,15 @@ const allMiceInfo = {
 		power: 650,
 		effs: [100, 100, 100, 100, 0, 100, 100, 100, 100, 100],
 	},
-	Lucky: {
+	'Lucky': {
 		power: 250,
 		effs: [100, 100, 100, 100, 0, 100, 100, 100, 100, 100],
 	},
-	Lumahead: {
+	'Lumahead': {
 		power: 8275,
 		effs: [0, 0, 100, 100, 0, 0, 0, 0, 0, 0],
 	},
-	Lumberjack: {
+	'Lumberjack': {
 		power: 26000,
 		effs: [0, 0, 0, 0, 0, 300, 0, 300, 300, 0],
 	},
@@ -2097,15 +2097,15 @@ const allMiceInfo = {
 		power: 888,
 		effs: [101, 101, 101, 101, 101, 101, 101, 101, 300, 300],
 	},
-	Lycan: {
+	'Lycan': {
 		power: 8765,
 		effs: [100, 0, 100, 0, 0, 25, 200, 25, 0, 0],
 	},
-	Lycanoid: {
+	'Lycanoid': {
 		power: 1100,
 		effs: [10, 10, 10, 10, 0, 10, 10, 10, 10, 100],
 	},
-	M400: {
+	'M400': {
 		power: 24599,
 		effs: [0, 0, 0, 0, 0, 75, 0, 75, 0, 0],
 	},
@@ -2117,7 +2117,7 @@ const allMiceInfo = {
 		power: 29999,
 		effs: [0, 0, 0, 0, 0, 300, 0, 300, 300, 0],
 	},
-	Magic: {
+	'Magic': {
 		power: 300,
 		effs: [100, 100, 100, 100, 0, 100, 100, 100, 100, 100],
 	},
@@ -2129,7 +2129,7 @@ const allMiceInfo = {
 		power: 14300,
 		effs: [0, 0, 0, 0, 0, 0, 200, 0, 0, 0],
 	},
-	Magmarage: {
+	'Magmarage': {
 		power: 5500,
 		effs: [0, 0, 0, 100, 0, 75, 0, 75, 0, 0],
 	},
@@ -2149,7 +2149,7 @@ const allMiceInfo = {
 		power: 3050,
 		effs: [101, 101, 101, 101, 101, 101, 101, 101, 101, 300],
 	},
-	Mammoth: {
+	'Mammoth': {
 		power: 7000,
 		effs: [0, 0, 0, 100, 0, 0, 0, 0, 0, 0],
 	},
@@ -2157,7 +2157,7 @@ const allMiceInfo = {
 		power: 18501,
 		effs: [100, 0, 5000, 0, 0, 0, 0, 0, 0, 0],
 	},
-	Manatee: {
+	'Manatee': {
 		power: 3990,
 		effs: [0, 0, 0, 100, 0, 0, 0, 0, 0, 0],
 	},
@@ -2169,7 +2169,7 @@ const allMiceInfo = {
 		power: 42900,
 		effs: [0, 0, 0, 0, 0, 300, 0, 300, 400, 0],
 	},
-	Martial: {
+	'Martial': {
 		power: 8800,
 		effs: [0, 0, 0, 0, 0, 0, 0, 0, 0, 300],
 	},
@@ -2225,7 +2225,7 @@ const allMiceInfo = {
 		power: 1500,
 		effs: [10, 10, 10, 10, 0, 10, 10, 10, 10, 100],
 	},
-	Medicine: {
+	'Medicine': {
 		power: 1250,
 		effs: [10, 10, 10, 10, 0, 10, 10, 10, 10, 100],
 	},
@@ -2233,15 +2233,15 @@ const allMiceInfo = {
 		power: 5003,
 		effs: [10, 10, 10, 10, 0, 10, 10, 10, 10, 100],
 	},
-	Mermouse: {
+	'Mermouse': {
 		power: 3300,
 		effs: [0, 0, 0, 175, 0, 100, 0, 100, 0, 0],
 	},
-	Mermousette: {
+	'Mermousette': {
 		power: 6380,
 		effs: [0, 0, 0, 100, 0, 0, 0, 0, 0, 0],
 	},
-	Mershark: {
+	'Mershark': {
 		power: 7500,
 		effs: [0, 0, 0, 100, 0, 0, 0, 0, 0, 0],
 	},
@@ -2265,7 +2265,7 @@ const allMiceInfo = {
 		power: 2650,
 		effs: [50, 0, 0, 0, 0, 0, 50, 0, 200, 0],
 	},
-	Micro: {
+	'Micro': {
 		power: 866,
 		effs: [10, 10, 10, 10, 0, 10, 10, 10, 10, 100],
 	},
@@ -2281,7 +2281,7 @@ const allMiceInfo = {
 		power: 18000,
 		effs: [0, 0, 0, 0, 0, 0, 0, 0, 0, 200],
 	},
-	Mimic: {
+	'Mimic': {
 		power: 18051,
 		effs: [100, 0, 300, 0, 0, 0, 0, 0, 0, 0],
 	},
@@ -2289,7 +2289,7 @@ const allMiceInfo = {
 		power: 20250,
 		effs: [100, 0, 300, 0, 0, 0, 0, 0, 0, 0],
 	},
-	Miner: {
+	'Miner': {
 		power: 3442,
 		effs: [100, 0, 0, 0, 0, 100, 100, 100, 0, 0],
 	},
@@ -2297,7 +2297,7 @@ const allMiceInfo = {
 		power: 3250,
 		effs: [50, 0, 0, 0, 0, 0, 50, 0, 200, 0],
 	},
-	Mintaka: {
+	'Mintaka': {
 		power: 8000,
 		effs: [0, 0, 0, 0, 0, 175, 0, 0, 0, 0],
 	},
@@ -2309,7 +2309,7 @@ const allMiceInfo = {
 		power: 10500,
 		effs: [100, 0, 0, 0, 0, 0, 150, 0, 0, 0],
 	},
-	Miser: {
+	'Miser': {
 		power: 1030,
 		effs: [100, 100, 100, 100, 0, 100, 100, 100, 100, 100],
 	},
@@ -2325,11 +2325,11 @@ const allMiceInfo = {
 		power: 3710,
 		effs: [0, 0, 0, 100, 0, 0, 0, 0, 0, 0],
 	},
-	Mobster: {
+	'Mobster': {
 		power: 20400,
 		effs: [100, 100, 100, 100, 0, 100, 100, 100, 100, 100],
 	},
-	Mole: {
+	'Mole': {
 		power: 300,
 		effs: [100, 0, 0, 0, 0, 100, 100, 100, 0, 0],
 	},
@@ -2337,11 +2337,11 @@ const allMiceInfo = {
 		power: 491997,
 		effs: [100, 0, 5000, 0, 0, 0, 0, 0, 0, 0],
 	},
-	Monarch: {
+	'Monarch': {
 		power: 2530,
 		effs: [0, 0, 0, 0, 0, 0, 0, 150, 0, 0],
 	},
-	Monk: {
+	'Monk': {
 		power: 6630,
 		effs: [0, 0, 0, 0, 0, 100, 0, 175, 0, 0],
 	},
@@ -2349,7 +2349,7 @@ const allMiceInfo = {
 		power: 9500,
 		effs: [100, 50, 0, 0, 0, 0, 150, 0, 0, 0],
 	},
-	Monster: {
+	'Monster': {
 		power: 8240,
 		effs: [100, 0, 100, 100, 0, 500, 500, 100, 100, 0],
 	},
@@ -2369,7 +2369,7 @@ const allMiceInfo = {
 		power: 9000,
 		effs: [10, 10, 10, 10, 0, 10, 10, 10, 10, 200],
 	},
-	Moosker: {
+	'Moosker': {
 		power: 45,
 		effs: [100, 0, 0, 100, 0, 100, 100, 175, 100, 0],
 	},
@@ -2381,7 +2381,7 @@ const allMiceInfo = {
 		power: 5560,
 		effs: [0, 0, 100, 100, 0, 0, 0, 0, 0, 0],
 	},
-	Mountain: {
+	'Mountain': {
 		power: 1100,
 		effs: [100, 0, 100, 100, 0, 100, 100, 100, 100, 0],
 	},
@@ -2413,15 +2413,15 @@ const allMiceInfo = {
 		power: 18300,
 		effs: [100, 0, 100, 0, 0, 25, 2500, 25, 0, 0],
 	},
-	Moussile: {
+	'Moussile': {
 		power: 700,
 		effs: [100, 100, 100, 100, 0, 100, 100, 100, 100, 100],
 	},
-	Mummy: {
+	'Mummy': {
 		power: 3860,
 		effs: [100, 0, 100, 0, 0, 25, 200, 25, 0, 0],
 	},
-	Mush: {
+	'Mush': {
 		power: 7290,
 		effs: [0, 0, 100, 100, 0, 0, 0, 0, 0, 0],
 	},
@@ -2473,7 +2473,7 @@ const allMiceInfo = {
 		power: 3253,
 		effs: [0, 0, 0, 0, 0, 0, 0, 0, 200, 0],
 	},
-	Mystic: {
+	'Mystic': {
 		power: 3250,
 		effs: [0, 0, 0, 175, 0, 0, 0, 0, 0, 0],
 	},
@@ -2521,11 +2521,11 @@ const allMiceInfo = {
 		power: 26675,
 		effs: [0, 0, 0, 0, 0, 0, 500, 0, 0, 0],
 	},
-	Narrator: {
+	'Narrator': {
 		power: 1330,
 		effs: [0, 0, 0, 100, 0, 100, 0, 175, 0, 0],
 	},
-	Naturalist: {
+	'Naturalist': {
 		power: 2000,
 		effs: [10, 10, 10, 10, 0, 10, 10, 10, 10, 100],
 	},
@@ -2533,7 +2533,7 @@ const allMiceInfo = {
 		power: 2560,
 		effs: [100, 100, 100, 100, 0, 100, 100, 100, 100, 100],
 	},
-	Necromancer: {
+	'Necromancer': {
 		power: 2000,
 		effs: [125, 125, 125, 400, 25, 75, 125, 75, 0, 0],
 	},
@@ -2549,7 +2549,7 @@ const allMiceInfo = {
 		power: 755,
 		effs: [100, 100, 100, 100, 0, 100, 100, 100, 100, 100],
 	},
-	Nibbler: {
+	'Nibbler': {
 		power: 275,
 		effs: [100, 100, 100, 100, 0, 100, 100, 100, 100, 100],
 	},
@@ -2565,11 +2565,11 @@ const allMiceInfo = {
 		power: 14751,
 		effs: [150, 0, 0, 0, 0, 0, 100, 0, 0, 0],
 	},
-	Nightfire: {
+	'Nightfire': {
 		power: 103992,
 		effs: [150, 0, 0, 0, 0, 0, 100, 0, 0, 0],
 	},
-	Nightmancer: {
+	'Nightmancer': {
 		power: 64021,
 		effs: [100, 0, 0, 0, 0, 0, 150, 0, 0, 0],
 	},
@@ -2593,11 +2593,11 @@ const allMiceInfo = {
 		power: 16700,
 		effs: [275, 0, 300, 0, 0, 0, 0, 0, 0, 0],
 	},
-	Nimbomancer: {
+	'Nimbomancer': {
 		power: 13474,
 		effs: [0, 0, 0, 100, 0, 0, 0, 0, 0, 0],
 	},
-	Ninja: {
+	'Ninja': {
 		power: 1275,
 		effs: [0, 0, 0, 0, 0, 100, 0, 175, 0, 0],
 	},
@@ -2605,7 +2605,7 @@ const allMiceInfo = {
 		power: 1695,
 		effs: [100, 100, 100, 100, 0, 100, 100, 100, 100, 100],
 	},
-	Nomad: {
+	'Nomad': {
 		power: 13175,
 		effs: [100, 0, 0, 100, 0, 100, 100, 175, 100, 0],
 	},
@@ -2613,15 +2613,15 @@ const allMiceInfo = {
 		power: 2500,
 		effs: [10, 10, 10, 10, 0, 10, 10, 10, 10, 100],
 	},
-	Nugget: {
+	'Nugget': {
 		power: 900,
 		effs: [100, 0, 0, 0, 0, 100, 100, 100, 0, 0],
 	},
-	Nutcracker: {
+	'Nutcracker': {
 		power: 1215,
 		effs: [100, 100, 100, 100, 0, 100, 100, 100, 100, 100],
 	},
-	Octomermaid: {
+	'Octomermaid': {
 		power: 6741,
 		effs: [0, 0, 0, 100, 0, 0, 0, 0, 0, 0],
 	},
@@ -2645,7 +2645,7 @@ const allMiceInfo = {
 		power: 2200,
 		effs: [100, 100, 100, 100, 0, 100, 100, 100, 100, 100],
 	},
-	Ooze: {
+	'Ooze': {
 		power: 5205,
 		effs: [200, 0, 100, 0, 0, 0, 100, 0, 0, 0],
 	},
@@ -2653,7 +2653,7 @@ const allMiceInfo = {
 		power: 1720,
 		effs: [0, 0, 0, 0, 0, 0, 100, 0, 0, 0],
 	},
-	Ornament: {
+	'Ornament': {
 		power: 1215,
 		effs: [100, 100, 100, 100, 0, 100, 100, 100, 100, 100],
 	},
@@ -2661,7 +2661,7 @@ const allMiceInfo = {
 		power: 17250,
 		effs: [0, 0, 0, 100, 0, 0, 0, 0, 0, 0],
 	},
-	Outlaw: {
+	'Outlaw': {
 		power: 4500,
 		effs: [0, 0, 0, 0, 0, 0, 0, 0, 200, 0],
 	},
@@ -2669,7 +2669,7 @@ const allMiceInfo = {
 		power: 2280,
 		effs: [0, 0, 0, 200, 0, 0, 0, 100, 0, 0],
 	},
-	Overcaster: {
+	'Overcaster': {
 		power: 17275,
 		effs: [0, 0, 0, 0, 0, 0, 100, 0, 0, 0],
 	},
@@ -2677,15 +2677,15 @@ const allMiceInfo = {
 		power: 7500,
 		effs: [0, 0, 0, 100, 0, 0, 0, 0, 0, 0],
 	},
-	Pack: {
+	'Pack': {
 		power: 2700,
 		effs: [0, 0, 0, 175, 0, 0, 0, 0, 0, 0],
 	},
-	Page: {
+	'Page': {
 		power: 275,
 		effs: [50, 50, 50, 50, 25, 50, 50, 200, 0, 0],
 	},
-	Paladin: {
+	'Paladin': {
 		power: 7700,
 		effs: [300, 200, 200, 200, 25, 75, 200, 75, 0, 0],
 	},
@@ -2741,15 +2741,15 @@ const allMiceInfo = {
 		power: 510,
 		effs: [100, 100, 100, 100, 0, 100, 100, 100, 100, 100],
 	},
-	Passenger: {
+	'Passenger': {
 		power: 3000,
 		effs: [0, 0, 0, 0, 0, 0, 0, 0, 200, 0],
 	},
-	Pathfinder: {
+	'Pathfinder': {
 		power: 1500,
 		effs: [0, 0, 0, 100, 0, 100, 0, 175, 0, 0],
 	},
-	Pearl: {
+	'Pearl': {
 		power: 5720,
 		effs: [0, 0, 0, 100, 0, 0, 0, 0, 0, 0],
 	},
@@ -2757,7 +2757,7 @@ const allMiceInfo = {
 		power: 4960,
 		effs: [0, 0, 0, 100, 0, 0, 0, 0, 0, 0],
 	},
-	Pebble: {
+	'Pebble': {
 		power: 120,
 		effs: [100, 0, 100, 100, 0, 100, 100, 100, 100, 0],
 	},
@@ -2765,11 +2765,11 @@ const allMiceInfo = {
 		power: 110950,
 		effs: [700, 700, 700, 700, 0, 700, 700, 700, 700, 0],
 	},
-	Penguin: {
+	'Penguin': {
 		power: 2508,
 		effs: [0, 0, 0, 200, 0, 0, 0, 100, 0, 0],
 	},
-	Phalanx: {
+	'Phalanx': {
 		power: 800,
 		effs: [50, 50, 50, 50, 25, 50, 50, 200, 0, 0],
 	},
@@ -2777,7 +2777,7 @@ const allMiceInfo = {
 		power: 975,
 		effs: [10, 10, 10, 10, 0, 10, 10, 10, 10, 100],
 	},
-	Photographer: {
+	'Photographer': {
 		power: 2752,
 		effs: [0, 0, 0, 0, 0, 0, 0, 0, 200, 0],
 	},
@@ -2785,15 +2785,15 @@ const allMiceInfo = {
 		power: 8600,
 		effs: [0, 0, 0, 0, 0, 300, 0, 300, 400, 0],
 	},
-	Pinchy: {
+	'Pinchy': {
 		power: 635,
 		effs: [0, 0, 0, 175, 0, 100, 0, 100, 0, 0],
 	},
-	Pintail: {
+	'Pintail': {
 		power: 600,
 		effs: [100, 100, 100, 100, 100, 100, 100, 100, 100, 100],
 	},
-	Pirate: {
+	'Pirate': {
 		power: 1275,
 		effs: [100, 100, 100, 175, 0, 100, 100, 100, 100, 0],
 	},
@@ -2813,7 +2813,7 @@ const allMiceInfo = {
 		power: 1200,
 		effs: [10, 10, 10, 10, 0, 10, 10, 10, 10, 100],
 	},
-	Pocketwatch: {
+	'Pocketwatch': {
 		power: 5001,
 		effs: [0, 0, 0, 0, 0, 175, 0, 150, 0, 0],
 	},
@@ -2845,7 +2845,7 @@ const allMiceInfo = {
 		power: 72000,
 		effs: [0, 0, 0, 0, 0, 0, 0, 0, 0, 900],
 	},
-	Present: {
+	'Present': {
 		power: 85,
 		effs: [100, 100, 100, 100, 100, 100, 100, 100, 100, 100],
 	},
@@ -2853,7 +2853,7 @@ const allMiceInfo = {
 		power: 150000,
 		effs: [0, 0, 0, 0, 0, 0, 0, 0, 0, 2500],
 	},
-	Primal: {
+	'Primal': {
 		power: 12345,
 		effs: [0, 0, 0, 0, 0, 0, 200, 0, 0, 0],
 	},
@@ -2861,27 +2861,27 @@ const allMiceInfo = {
 		power: 15500,
 		effs: [0, 0, 0, 100, 0, 0, 0, 0, 0, 0],
 	},
-	Prospector: {
+	'Prospector': {
 		power: 1750,
 		effs: [0, 0, 0, 0, 0, 0, 0, 0, 200, 0],
 	},
-	Protector: {
+	'Protector': {
 		power: 10400,
 		effs: [0, 0, 0, 175, 0, 0, 0, 0, 0, 0],
 	},
-	Prototype: {
+	'Prototype': {
 		power: 950,
 		effs: [10, 10, 10, 10, 0, 10, 10, 10, 10, 100],
 	},
-	Puddlemancer: {
+	'Puddlemancer': {
 		power: 9925,
 		effs: [0, 0, 0, 0, 0, 200, 0, 125, 0, 0],
 	},
-	Puffer: {
+	'Puffer': {
 		power: 3990,
 		effs: [0, 0, 0, 100, 0, 0, 0, 0, 0, 0],
 	},
-	Pugilist: {
+	'Pugilist': {
 		power: 70,
 		effs: [100, 100, 100, 100, 0, 100, 100, 100, 100, 100],
 	},
@@ -2905,7 +2905,7 @@ const allMiceInfo = {
 		power: 100,
 		effs: [25, 25, 25, 25, 25, 100, 25, 100, 0, 0],
 	},
-	Puppetto: {
+	'Puppetto': {
 		power: 2900,
 		effs: [0, 0, 0, 0, 0, 0, 0, 0, 0, 100],
 	},
@@ -2913,11 +2913,11 @@ const allMiceInfo = {
 		power: 3600,
 		effs: [0, 0, 0, 0, 0, 0, 200, 0, 0, 0],
 	},
-	Pyrehyde: {
+	'Pyrehyde': {
 		power: 13700,
 		effs: [0, 100, 0, 0, 0, 0, 0, 0, 0, 0],
 	},
-	Pyrite: {
+	'Pyrite': {
 		power: 650,
 		effs: [0, 0, 0, 0, 0, 0, 0, 0, 200, 0],
 	},
@@ -2929,11 +2929,11 @@ const allMiceInfo = {
 		power: 4310,
 		effs: [0, 0, 0, 0, 0, 0, 0, 0, 100, 0],
 	},
-	Quesodillo: {
+	'Quesodillo': {
 		power: 5000,
 		effs: [0, 0, 0, 0, 0, 0, 100, 0, 0, 0],
 	},
-	Quillback: {
+	'Quillback': {
 		power: 8000,
 		effs: [0, 0, 100, 100, 0, 0, 0, 0, 0, 0],
 	},
@@ -2957,7 +2957,7 @@ const allMiceInfo = {
 		power: 3100,
 		effs: [100, 100, 100, 100, 0, 100, 100, 100, 100, 100],
 	},
-	Rainmancer: {
+	'Rainmancer': {
 		power: 18500,
 		effs: [100, 50, 0, 0, 0, 0, 150, 0, 0, 0],
 	},
@@ -2993,7 +2993,7 @@ const allMiceInfo = {
 		power: 14651,
 		effs: [100, 0, 125, 0, 0, 0, 0, 0, 0, 0],
 	},
-	Reaper: {
+	'Reaper': {
 		power: 11400,
 		effs: [200, 0, 100, 0, 0, 0, 100, 0, 0, 0],
 	},
@@ -3021,7 +3021,7 @@ const allMiceInfo = {
 		power: 68550,
 		effs: [0, 300, 0, 0, 0, 0, 0, 0, 0, 0],
 	},
-	Reinbo: {
+	'Reinbo': {
 		power: 755,
 		effs: [100, 100, 100, 100, 0, 100, 100, 100, 100, 100],
 	},
@@ -3029,7 +3029,7 @@ const allMiceInfo = {
 		power: 1250,
 		effs: [100, 100, 100, 100, 0, 100, 100, 100, 100, 100],
 	},
-	Renegade: {
+	'Renegade': {
 		power: 9700,
 		effs: [0, 0, 0, 0, 0, 175, 0, 0, 0, 0],
 	},
@@ -3041,11 +3041,11 @@ const allMiceInfo = {
 		power: 11750,
 		effs: [100, 0, 0, 0, 0, 0, 150, 0, 0, 0],
 	},
-	Revenant: {
+	'Revenant': {
 		power: 1150,
 		effs: [10, 10, 10, 10, 0, 10, 10, 10, 10, 100],
 	},
-	Ribbon: {
+	'Ribbon': {
 		power: 85,
 		effs: [100, 100, 100, 100, 0, 100, 100, 100, 100, 100],
 	},
@@ -3069,19 +3069,19 @@ const allMiceInfo = {
 		power: 2000,
 		effs: [10, 10, 10, 10, 0, 10, 10, 10, 10, 100],
 	},
-	Rifterranian: {
+	'Rifterranian': {
 		power: 1250,
 		effs: [10, 10, 10, 10, 0, 10, 10, 10, 10, 100],
 	},
-	Riftweaver: {
+	'Riftweaver': {
 		power: 900,
 		effs: [10, 10, 10, 10, 0, 10, 10, 10, 10, 100],
 	},
-	Riptide: {
+	'Riptide': {
 		power: 3260,
 		effs: [150, 0, 200, 0, 0, 0, 200, 0, 0, 0],
 	},
-	Robat: {
+	'Robat': {
 		power: 975,
 		effs: [10, 10, 10, 10, 0, 10, 10, 10, 10, 100],
 	},
@@ -3089,23 +3089,23 @@ const allMiceInfo = {
 		power: 1145,
 		effs: [100, 0, 0, 0, 0, 100, 100, 100, 0, 0],
 	},
-	Rocketeer: {
+	'Rocketeer': {
 		power: 27300,
 		effs: [0, 0, 0, 0, 0, 0, 0, 600, 0, 0],
 	},
-	Rockstar: {
+	'Rockstar': {
 		power: 3000,
 		effs: [100, 100, 100, 100, 0, 100, 100, 100, 100, 100],
 	},
-	Rogue: {
+	'Rogue': {
 		power: 600,
 		effs: [25, 25, 25, 25, 25, 200, 25, 100, 100, 0],
 	},
-	Romeno: {
+	'Romeno': {
 		power: 1,
 		effs: [100, 100, 100, 100, 0, 100, 100, 100, 100, 100],
 	},
-	Romeo: {
+	'Romeo': {
 		power: 3000,
 		effs: [100, 100, 100, 100, 0, 100, 100, 100, 100, 100],
 	},
@@ -3121,7 +3121,7 @@ const allMiceInfo = {
 		power: 3480,
 		effs: [0, 0, 0, 0, 0, 0, 100, 0, 0, 0],
 	},
-	Ruffian: {
+	'Ruffian': {
 		power: 2000,
 		effs: [0, 0, 0, 0, 0, 0, 0, 0, 200, 0],
 	},
@@ -3129,7 +3129,7 @@ const allMiceInfo = {
 		power: 1695,
 		effs: [100, 100, 100, 100, 0, 100, 100, 100, 100, 100],
 	},
-	Saboteur: {
+	'Saboteur': {
 		power: 4500,
 		effs: [0, 0, 0, 100, 0, 0, 0, 0, 0, 0],
 	},
@@ -3149,7 +3149,7 @@ const allMiceInfo = {
 		power: 3990,
 		effs: [0, 0, 0, 100, 0, 0, 0, 0, 0, 0],
 	},
-	Samurai: {
+	'Samurai': {
 		power: 6630,
 		effs: [0, 0, 0, 0, 0, 100, 0, 175, 0, 0],
 	},
@@ -3173,7 +3173,7 @@ const allMiceInfo = {
 		power: 3000,
 		effs: [0, 0, 0, 0, 0, 0, 100, 0, 0, 0],
 	},
-	Sandmouse: {
+	'Sandmouse': {
 		power: 1800,
 		effs: [101, 101, 101, 101, 101, 101, 101, 101, 101, 300],
 	},
@@ -3181,19 +3181,19 @@ const allMiceInfo = {
 		power: 6200,
 		effs: [0, 0, 0, 75, 0, 75, 0, 100, 0, 0],
 	},
-	Sanguinarian: {
+	'Sanguinarian': {
 		power: 13601,
 		effs: [100, 0, 300, 0, 0, 0, 0, 0, 0, 0],
 	},
-	Sarcophamouse: {
+	'Sarcophamouse': {
 		power: 5000,
 		effs: [0, 0, 0, 0, 0, 0, 100, 0, 0, 0],
 	},
-	Scarab: {
+	'Scarab': {
 		power: 7998,
 		effs: [0, 0, 0, 0, 0, 0, 100, 0, 0, 0],
 	},
-	Scarecrow: {
+	'Scarecrow': {
 		power: 2645,
 		effs: [0, 0, 0, 0, 0, 0, 200, 100, 0, 0],
 	},
@@ -3201,7 +3201,7 @@ const allMiceInfo = {
 		power: 114000,
 		effs: [300, 300, 300, 300, 0, 300, 300, 300, 300, 0],
 	},
-	Scavenger: {
+	'Scavenger': {
 		power: 5205,
 		effs: [200, 0, 100, 0, 0, 0, 100, 0, 0, 0],
 	},
@@ -3213,7 +3213,7 @@ const allMiceInfo = {
 		power: 2350,
 		effs: [101, 101, 101, 101, 101, 101, 101, 101, 101, 300],
 	},
-	Scout: {
+	'Scout': {
 		power: 1750,
 		effs: [0, 0, 0, 175, 0, 100, 0, 100, 0, 0],
 	},
@@ -3221,19 +3221,19 @@ const allMiceInfo = {
 		power: 10000,
 		effs: [0, 0, 0, 100, 0, 0, 0, 0, 0, 0],
 	},
-	Scribe: {
+	'Scribe': {
 		power: 26999,
 		effs: [0, 0, 0, 0, 0, 300, 0, 275, 0, 0],
 	},
-	Scrooge: {
+	'Scrooge': {
 		power: 2100,
 		effs: [100, 100, 100, 100, 0, 100, 100, 100, 100, 100],
 	},
-	Scruffy: {
+	'Scruffy': {
 		power: 120,
 		effs: [100, 100, 100, 100, 0, 100, 100, 100, 100, 100],
 	},
-	Seadragon: {
+	'Seadragon': {
 		power: 4900,
 		effs: [0, 0, 0, 100, 0, 0, 0, 0, 0, 0],
 	},
@@ -3241,7 +3241,7 @@ const allMiceInfo = {
 		power: 20550,
 		effs: [0, 0, 0, 0, 0, 0, 0, 100, 0, 0],
 	},
-	Seer: {
+	'Seer': {
 		power: 8800,
 		effs: [0, 0, 0, 0, 0, 175, 0, 0, 0, 0],
 	},
@@ -3249,7 +3249,7 @@ const allMiceInfo = {
 		power: 1750,
 		effs: [0, 0, 0, 0, 0, 0, 0, 0, 0, 100],
 	},
-	Sentinel: {
+	'Sentinel': {
 		power: 4800,
 		effs: [0, 0, 0, 75, 0, 100, 0, 75, 0, 0],
 	},
@@ -3257,7 +3257,7 @@ const allMiceInfo = {
 		power: 26599,
 		effs: [0, 0, 0, 100, 0, 0, 0, 0, 0, 0],
 	},
-	Serpentine: {
+	'Serpentine': {
 		power: 7998,
 		effs: [0, 0, 0, 0, 0, 0, 100, 0, 0, 0],
 	},
@@ -3277,7 +3277,7 @@ const allMiceInfo = {
 		power: 51990,
 		effs: [0, 0, 50, 0, 0, 0, 0, 0, 0, 0],
 	},
-	Shaman: {
+	'Shaman': {
 		power: 755,
 		effs: [100, 0, 0, 100, 0, 100, 100, 175, 100, 0],
 	},
@@ -3289,7 +3289,7 @@ const allMiceInfo = {
 		power: 1340,
 		effs: [10, 10, 10, 10, 0, 10, 10, 10, 10, 100],
 	},
-	Sharpshooter: {
+	'Sharpshooter': {
 		power: 4999,
 		effs: [0, 0, 0, 0, 0, 0, 0, 0, 200, 0],
 	},
@@ -3301,23 +3301,23 @@ const allMiceInfo = {
 		power: 8325,
 		effs: [0, 0, 100, 50, 0, 0, 0, 0, 0, 0],
 	},
-	Shelder: {
+	'Shelder': {
 		power: 1270,
 		effs: [0, 0, 0, 175, 0, 100, 0, 100, 0, 0],
 	},
-	Shinobi: {
+	'Shinobi': {
 		power: 2910,
 		effs: [0, 0, 0, 0, 0, 0, 0, 0, 0, 100],
 	},
-	Shipwrecked: {
+	'Shipwrecked': {
 		power: 1485,
 		effs: [0, 0, 0, 175, 0, 100, 0, 100, 0, 0],
 	},
-	Shopkeeper: {
+	'Shopkeeper': {
 		power: 1500,
 		effs: [0, 0, 0, 0, 0, 0, 0, 0, 200, 0],
 	},
-	Shortcut: {
+	'Shortcut': {
 		power: 1750,
 		effs: [101, 101, 101, 101, 101, 101, 101, 101, 101, 300],
 	},
@@ -3325,15 +3325,15 @@ const allMiceInfo = {
 		power: 1695,
 		effs: [100, 100, 100, 100, 0, 100, 100, 100, 100, 100],
 	},
-	Shroom: {
+	'Shroom': {
 		power: 7000,
 		effs: [0, 0, 0, 100, 0, 0, 0, 0, 0, 0],
 	},
-	Silth: {
+	'Silth': {
 		power: 60001,
 		effs: [100, 0, 0, 175, 0, 100, 100, 125, 0, 0],
 	},
-	Silvertail: {
+	'Silvertail': {
 		power: 500,
 		effs: [100, 0, 100, 100, 0, 100, 100, 100, 100, 0],
 	},
@@ -3345,7 +3345,7 @@ const allMiceInfo = {
 		power: 16700,
 		effs: [100, 0, 300, 0, 0, 0, 0, 0, 0, 0],
 	},
-	Siren: {
+	'Siren': {
 		power: 5508,
 		effs: [0, 0, 0, 175, 0, 100, 0, 100, 0, 0],
 	},
@@ -3357,7 +3357,7 @@ const allMiceInfo = {
 		power: 1550,
 		effs: [0, 0, 0, 0, 0, 0, 0, 0, 0, 100],
 	},
-	Skeleton: {
+	'Skeleton': {
 		power: 3175,
 		effs: [200, 0, 100, 0, 0, 0, 100, 0, 0, 0],
 	},
@@ -3397,7 +3397,7 @@ const allMiceInfo = {
 		power: 18610,
 		effs: [0, 0, 0, 0, 0, 100, 0, 0, 0, 0],
 	},
-	Skydiver: {
+	'Skydiver': {
 		power: 5950,
 		effs: [100, 100, 100, 100, 0, 100, 100, 100, 100, 0],
 	},
@@ -3405,11 +3405,11 @@ const allMiceInfo = {
 		power: 1695,
 		effs: [100, 100, 100, 100, 0, 100, 100, 100, 100, 100],
 	},
-	Slayer: {
+	'Slayer': {
 		power: 9800,
 		effs: [0, 0, 0, 0, 0, 0, 0, 175, 0, 0],
 	},
-	Sleepwalker: {
+	'Sleepwalker': {
 		power: 800,
 		effs: [100, 100, 100, 100, 100, 100, 100, 100, 100, 100],
 	},
@@ -3417,7 +3417,7 @@ const allMiceInfo = {
 		power: 420,
 		effs: [0, 0, 0, 0, 0, 0, 0, 0, 100, 0],
 	},
-	Slimefist: {
+	'Slimefist': {
 		power: 18500,
 		effs: [0, 0, 0, 100, 0, 0, 0, 0, 0, 0],
 	},
@@ -3425,7 +3425,7 @@ const allMiceInfo = {
 		power: 600,
 		effs: [100, 0, 100, 100, 0, 100, 100, 100, 100, 0],
 	},
-	Sludge: {
+	'Sludge': {
 		power: 3900,
 		effs: [0, 0, 0, 100, 0, 0, 0, 0, 0, 0],
 	},
@@ -3441,7 +3441,7 @@ const allMiceInfo = {
 		power: 19000,
 		effs: [0, 0, 0, 100, 0, 0, 0, 0, 0, 0],
 	},
-	Smoldersnap: {
+	'Smoldersnap': {
 		power: 7820,
 		effs: [0, 100, 0, 0, 0, 0, 0, 0, 0, 0],
 	},
@@ -3449,7 +3449,7 @@ const allMiceInfo = {
 		power: 6351,
 		effs: [0, 0, 0, 0, 0, 300, 0, 300, 300, 0],
 	},
-	Snooty: {
+	'Snooty': {
 		power: 12240,
 		effs: [100, 100, 100, 100, 0, 100, 100, 100, 100, 100],
 	},
@@ -3497,19 +3497,19 @@ const allMiceInfo = {
 		power: 288,
 		effs: [100, 100, 100, 100, 0, 100, 100, 100, 100, 0],
 	},
-	Snowblind: {
+	'Snowblind': {
 		power: 5600,
 		effs: [0, 0, 0, 100, 0, 0, 0, 0, 0, 0],
 	},
-	Snowblower: {
+	'Snowblower': {
 		power: 288,
 		effs: [100, 100, 100, 100, 0, 100, 100, 100, 100, 100],
 	},
-	Snowflake: {
+	'Snowflake': {
 		power: 285,
 		effs: [100, 100, 100, 100, 0, 100, 100, 100, 100, 100],
 	},
-	Snowglobe: {
+	'Snowglobe': {
 		power: 370,
 		effs: [100, 100, 100, 100, 0, 100, 100, 100, 100, 100],
 	},
@@ -3525,11 +3525,11 @@ const allMiceInfo = {
 		power: 40602,
 		effs: [100, 0, 300, 0, 0, 0, 0, 0, 0, 0],
 	},
-	Soothsayer: {
+	'Soothsayer': {
 		power: 6775,
 		effs: [0, 0, 0, 175, 0, 0, 0, 0, 0, 0],
 	},
-	Sorcerer: {
+	'Sorcerer': {
 		power: 5208,
 		effs: [200, 0, 100, 0, 0, 0, 100, 0, 0, 0],
 	},
@@ -3553,15 +3553,15 @@ const allMiceInfo = {
 		power: 3000,
 		effs: [101, 101, 101, 101, 101, 101, 101, 101, 101, 300],
 	},
-	Spectre: {
+	'Spectre': {
 		power: 5210,
 		effs: [200, 0, 100, 0, 0, 0, 100, 0, 0, 0],
 	},
-	Speedy: {
+	'Speedy': {
 		power: 120,
 		effs: [100, 100, 100, 100, 0, 100, 100, 100, 100, 100],
 	},
-	Spellbinder: {
+	'Spellbinder': {
 		power: 5350,
 		effs: [0, 0, 0, 0, 0, 175, 0, 0, 0, 0],
 	},
@@ -3597,7 +3597,7 @@ const allMiceInfo = {
 		power: 3080,
 		effs: [100, 0, 0, 0, 0, 0, 0, 0, 0, 0],
 	},
-	Spider: {
+	'Spider': {
 		power: 5205,
 		effs: [200, 0, 100, 0, 0, 0, 100, 0, 0, 0],
 	},
@@ -3629,7 +3629,7 @@ const allMiceInfo = {
 		power: 7050,
 		effs: [0, 0, 100, 50, 0, 0, 0, 0, 0, 0],
 	},
-	Spore: {
+	'Spore': {
 		power: 3000,
 		effs: [0, 0, 0, 100, 0, 0, 0, 0, 0, 0],
 	},
@@ -3641,7 +3641,7 @@ const allMiceInfo = {
 		power: 2200,
 		effs: [100, 100, 0, 0, 0, 0, 100, 0, 0, 0],
 	},
-	Sporeticus: {
+	'Sporeticus': {
 		power: 5175,
 		effs: [0, 0, 100, 100, 0, 0, 0, 0, 0, 0],
 	},
@@ -3649,7 +3649,7 @@ const allMiceInfo = {
 		power: 370,
 		effs: [100, 100, 100, 100, 0, 100, 100, 100, 100, 100],
 	},
-	Spotted: {
+	'Spotted': {
 		power: 5,
 		effs: [100, 100, 100, 100, 0, 100, 100, 100, 100, 100],
 	},
@@ -3673,11 +3673,11 @@ const allMiceInfo = {
 		power: 16175,
 		effs: [0, 0, 100, 0, 0, 0, 0, 0, 0, 0],
 	},
-	Spud: {
+	'Spud': {
 		power: 250,
 		effs: [100, 100, 100, 100, 0, 100, 100, 100, 100, 100],
 	},
-	Squeaken: {
+	'Squeaken': {
 		power: 13250,
 		effs: [0, 0, 0, 175, 0, 100, 0, 100, 0, 0],
 	},
@@ -3697,11 +3697,11 @@ const allMiceInfo = {
 		power: 4500,
 		effs: [0, 0, 0, 0, 0, 0, 0, 0, 200, 0],
 	},
-	Stalagmite: {
+	'Stalagmite': {
 		power: 14799,
 		effs: [0, 0, 200, 0, 0, 0, 0, 0, 0, 0],
 	},
-	Stealth: {
+	'Stealth': {
 		power: 300,
 		effs: [25, 25, 25, 25, 25, 200, 25, 100, 100, 0],
 	},
@@ -3713,7 +3713,7 @@ const allMiceInfo = {
 		power: 5365,
 		effs: [0, 100, 0, 0, 0, 0, 0, 0, 0, 0],
 	},
-	Steel: {
+	'Steel': {
 		power: 160,
 		effs: [100, 100, 100, 100, 0, 100, 100, 100, 100, 100],
 	},
@@ -3721,19 +3721,19 @@ const allMiceInfo = {
 		power: 4999,
 		effs: [0, 0, 0, 0, 0, 0, 0, 0, 200, 0],
 	},
-	Stickybomber: {
+	'Stickybomber': {
 		power: 4500,
 		effs: [0, 0, 0, 100, 0, 0, 0, 0, 0, 0],
 	},
-	Stinger: {
+	'Stinger': {
 		power: 13200,
 		effs: [0, 0, 0, 0, 0, 0, 0, 150, 0, 0],
 	},
-	Stingray: {
+	'Stingray': {
 		power: 4300,
 		effs: [0, 0, 0, 100, 0, 0, 0, 0, 0, 0],
 	},
-	Stocking: {
+	'Stocking': {
 		power: 3100,
 		effs: [100, 100, 100, 100, 0, 100, 100, 100, 100, 100],
 	},
@@ -3753,15 +3753,15 @@ const allMiceInfo = {
 		power: 63300,
 		effs: [0, 600, 0, 0, 0, 0, 0, 0, 0, 0],
 	},
-	Stoutgear: {
+	'Stoutgear': {
 		power: 4000,
 		effs: [0, 0, 0, 0, 0, 0, 0, 0, 200, 0],
 	},
-	Stowaway: {
+	'Stowaway': {
 		power: 2501,
 		effs: [0, 0, 0, 0, 0, 0, 0, 0, 200, 0],
 	},
-	Stratocaster: {
+	'Stratocaster': {
 		power: 19700,
 		effs: [0, 0, 0, 0, 0, 0, 100, 0, 0, 0],
 	},
@@ -3805,7 +3805,7 @@ const allMiceInfo = {
 		power: 18510,
 		effs: [100, 100, 100, 100, 0, 100, 100, 100, 100, 0],
 	},
-	Subterranean: {
+	'Subterranean': {
 		power: 9500,
 		effs: [100, 0, 0, 0, 0, 100, 100, 100, 0, 0],
 	},
@@ -3837,7 +3837,7 @@ const allMiceInfo = {
 		power: 2300,
 		effs: [10, 10, 10, 10, 0, 10, 10, 10, 10, 100],
 	},
-	Supernatural: {
+	'Supernatural': {
 		power: 980,
 		effs: [10, 10, 10, 10, 0, 10, 10, 10, 10, 100],
 	},
@@ -3853,7 +3853,7 @@ const allMiceInfo = {
 		power: 975,
 		effs: [10, 10, 10, 10, 0, 10, 10, 10, 10, 100],
 	},
-	Swabbie: {
+	'Swabbie': {
 		power: 570,
 		effs: [0, 0, 0, 175, 0, 100, 0, 100, 0, 0],
 	},
@@ -3869,23 +3869,23 @@ const allMiceInfo = {
 		power: 3000,
 		effs: [0, 0, 0, 0, 0, 0, 200, 0, 0, 0],
 	},
-	Swashblade: {
+	'Swashblade': {
 		power: 8709,
 		effs: [0, 0, 0, 100, 0, 0, 0, 0, 0, 0],
 	},
-	Sylvan: {
+	'Sylvan': {
 		power: 200,
 		effs: [100, 0, 0, 100, 0, 100, 100, 175, 100, 0],
 	},
-	Tadpole: {
+	'Tadpole': {
 		power: 5400,
 		effs: [0, 0, 0, 100, 0, 0, 0, 0, 0, 0],
 	},
-	Taleweaver: {
+	'Taleweaver': {
 		power: 1600,
 		effs: [0, 0, 0, 175, 0, 100, 0, 100, 0, 0],
 	},
-	Tanglefoot: {
+	'Tanglefoot': {
 		power: 4420,
 		effs: [0, 0, 0, 0, 0, 200, 0, 125, 0, 0],
 	},
@@ -3929,11 +3929,11 @@ const allMiceInfo = {
 		power: 14498,
 		effs: [0, 0, 0, 100, 0, 0, 0, 0, 0, 0],
 	},
-	Tentacle: {
+	'Tentacle': {
 		power: 12000,
 		effs: [0, 0, 0, 100, 0, 0, 0, 0, 0, 0],
 	},
-	Terra: {
+	'Terra': {
 		power: 2200,
 		effs: [100, 100, 100, 100, 25, 75, 400, 75, 0, 0],
 	},
@@ -3961,15 +3961,15 @@ const allMiceInfo = {
 		power: 10498,
 		effs: [0, 0, 0, 75, 0, 100, 0, 75, 0, 0],
 	},
-	Thirsty: {
+	'Thirsty': {
 		power: 999,
 		effs: [0, 0, 0, 100, 0, 0, 0, 0, 0, 0],
 	},
-	Thistle: {
+	'Thistle': {
 		power: 4000,
 		effs: [0, 0, 0, 100, 0, 0, 0, 0, 0, 0],
 	},
-	Thorn: {
+	'Thorn': {
 		power: 6000,
 		effs: [0, 0, 0, 100, 0, 0, 0, 0, 0, 0],
 	},
@@ -3981,7 +3981,7 @@ const allMiceInfo = {
 		power: 16500,
 		effs: [0, 300, 0, 0, 0, 0, 0, 0, 0, 0],
 	},
-	Thunderlord: {
+	'Thunderlord': {
 		power: 13500,
 		effs: [0, 300, 0, 0, 0, 0, 0, 0, 0, 0],
 	},
@@ -3989,7 +3989,7 @@ const allMiceInfo = {
 		power: 2500,
 		effs: [150, 0, 125, 0, 0, 0, 200, 0, 0, 0],
 	},
-	Tiger: {
+	'Tiger': {
 		power: 6700,
 		effs: [100, 0, 0, 100, 0, 100, 100, 175, 100, 0],
 	},
@@ -4021,7 +4021,7 @@ const allMiceInfo = {
 		power: 3300,
 		effs: [0, 0, 0, 0, 0, 0, 0, 0, 0, 100],
 	},
-	Tiny: {
+	'Tiny': {
 		power: 7,
 		effs: [100, 100, 100, 100, 0, 100, 100, 100, 100, 100],
 	},
@@ -4069,11 +4069,11 @@ const allMiceInfo = {
 		power: 17000,
 		effs: [0, 0, 0, 100, 0, 0, 0, 0, 0, 0],
 	},
-	Toxikinetic: {
+	'Toxikinetic': {
 		power: 1700,
 		effs: [10, 10, 10, 10, 0, 10, 10, 10, 10, 100],
 	},
-	Toy: {
+	'Toy': {
 		power: 85,
 		effs: [100, 100, 100, 100, 0, 100, 100, 100, 100, 100],
 	},
@@ -4085,7 +4085,7 @@ const allMiceInfo = {
 		power: 120,
 		effs: [100, 100, 100, 100, 0, 100, 100, 100, 100, 100],
 	},
-	Trailblazer: {
+	'Trailblazer': {
 		power: 2500,
 		effs: [0, 0, 0, 100, 0, 175, 0, 100, 0, 0],
 	},
@@ -4097,7 +4097,7 @@ const allMiceInfo = {
 		power: 3499,
 		effs: [0, 0, 0, 0, 0, 0, 0, 0, 200, 0],
 	},
-	Trampoline: {
+	'Trampoline': {
 		power: 750,
 		effs: [100, 100, 100, 100, 0, 100, 100, 100, 100, 100],
 	},
@@ -4105,7 +4105,7 @@ const allMiceInfo = {
 		power: 3253,
 		effs: [0, 0, 0, 0, 0, 0, 0, 0, 200, 0],
 	},
-	Treant: {
+	'Treant': {
 		power: 760,
 		effs: [100, 0, 0, 100, 0, 100, 100, 175, 100, 0],
 	},
@@ -4125,11 +4125,11 @@ const allMiceInfo = {
 		power: 8600,
 		effs: [0, 0, 0, 100, 0, 0, 0, 0, 0, 0],
 	},
-	Treasurer: {
+	'Treasurer': {
 		power: 4080,
 		effs: [100, 100, 100, 100, 0, 100, 100, 100, 100, 100],
 	},
-	Treat: {
+	'Treat': {
 		power: 2000,
 		effs: [101, 101, 101, 101, 101, 101, 101, 101, 101, 300],
 	},
@@ -4141,7 +4141,7 @@ const allMiceInfo = {
 		power: 7500,
 		effs: [10, 10, 10, 10, 0, 10, 10, 10, 10, 100],
 	},
-	Trick: {
+	'Trick': {
 		power: 2000,
 		effs: [101, 101, 101, 101, 101, 101, 101, 101, 101, 300],
 	},
@@ -4153,15 +4153,15 @@ const allMiceInfo = {
 		power: 285,
 		effs: [100, 100, 100, 100, 0, 100, 100, 100, 100, 100],
 	},
-	Tritus: {
+	'Tritus': {
 		power: 68501,
 		effs: [0, 0, 0, 100, 0, 0, 0, 0, 0, 0],
 	},
-	Troll: {
+	'Troll': {
 		power: 14460,
 		effs: [100, 0, 0, 100, 0, 100, 175, 100, 0, 0],
 	},
-	Tumbleweed: {
+	'Tumbleweed': {
 		power: 1375,
 		effs: [0, 0, 0, 0, 0, 0, 0, 0, 200, 0],
 	},
@@ -4193,7 +4193,7 @@ const allMiceInfo = {
 		power: 1500,
 		effs: [10, 10, 10, 10, 0, 10, 10, 10, 10, 100],
 	},
-	Undertaker: {
+	'Undertaker': {
 		power: 4500,
 		effs: [0, 0, 0, 0, 0, 0, 0, 0, 200, 0],
 	},
@@ -4209,19 +4209,19 @@ const allMiceInfo = {
 		power: 11150,
 		effs: [0, 0, 0, 100, 0, 0, 0, 0, 0, 0],
 	},
-	Vampire: {
+	'Vampire': {
 		power: 2340,
 		effs: [100, 0, 100, 0, 0, 25, 200, 25, 0, 0],
 	},
-	Vanguard: {
+	'Vanguard': {
 		power: 4100,
 		effs: [0, 0, 0, 75, 0, 100, 0, 75, 0, 0],
 	},
-	Vanquisher: {
+	'Vanquisher': {
 		power: 7450,
 		effs: [0, 0, 0, 175, 0, 0, 0, 0, 0, 0],
 	},
-	Vaporior: {
+	'Vaporior': {
 		power: 10000,
 		effs: [0, 100, 0, 0, 0, 0, 0, 0, 0, 0],
 	},
@@ -4233,7 +4233,7 @@ const allMiceInfo = {
 		power: 4000,
 		effs: [100, 100, 100, 100, 100, 100, 100, 100, 100, 100],
 	},
-	Vinetail: {
+	'Vinetail': {
 		power: 18900,
 		effs: [0, 0, 0, 0, 0, 200, 0, 125, 0, 0],
 	},
@@ -4241,7 +4241,7 @@ const allMiceInfo = {
 		power: 2000,
 		effs: [0, 100, 0, 0, 0, 0, 0, 0, 0, 0],
 	},
-	Walker: {
+	'Walker': {
 		power: 14751,
 		effs: [0, 0, 0, 0, 0, 125, 0, 250, 0, 0],
 	},
@@ -4273,7 +4273,7 @@ const allMiceInfo = {
 		power: 7350,
 		effs: [0, 100, 0, 0, 0, 0, 0, 0, 0, 0],
 	},
-	Warmonger: {
+	'Warmonger': {
 		power: 43007,
 		effs: [75, 0, 0, 75, 0, 100, 0, 75, 0, 0],
 	},
@@ -4293,7 +4293,7 @@ const allMiceInfo = {
 		power: 1250,
 		effs: [100, 100, 100, 100, 0, 100, 100, 100, 100, 100],
 	},
-	Wealth: {
+	'Wealth': {
 		power: 1525,
 		effs: [10, 10, 10, 10, 0, 10, 10, 10, 10, 100],
 	},
@@ -4301,23 +4301,23 @@ const allMiceInfo = {
 		power: 9450,
 		effs: [100, 0, 0, 0, 0, 0, 150, 0, 0, 0],
 	},
-	Werehauler: {
+	'Werehauler': {
 		power: 8500,
 		effs: [100, 0, 0, 0, 0, 0, 150, 0, 0, 0],
 	},
-	Wereminer: {
+	'Wereminer': {
 		power: 14501,
 		effs: [100, 0, 0, 0, 0, 0, 150, 0, 0, 0],
 	},
-	Whelpling: {
+	'Whelpling': {
 		power: 1275,
 		effs: [0, 100, 0, 75, 0, 75, 0, 75, 0, 0],
 	},
-	Whirleygig: {
+	'Whirleygig': {
 		power: 2185,
 		effs: [0, 0, 0, 0, 0, 0, 200, 100, 0, 0],
 	},
-	White: {
+	'White': {
 		power: 1,
 		effs: [100, 100, 100, 100, 0, 100, 100, 100, 100, 100],
 	},
@@ -4329,11 +4329,11 @@ const allMiceInfo = {
 		power: 1270,
 		effs: [100, 0, 0, 100, 0, 100, 100, 175, 100, 0],
 	},
-	Wiggler: {
+	'Wiggler': {
 		power: 90,
 		effs: [100, 0, 0, 100, 0, 100, 100, 175, 100, 0],
 	},
-	Wight: {
+	'Wight': {
 		power: 13780,
 		effs: [200, 0, 100, 0, 0, 0, 100, 0, 0, 0],
 	},
@@ -4369,15 +4369,15 @@ const allMiceInfo = {
 		power: 29000,
 		effs: [0, 0, 0, 0, 0, 0, 0, 0, 0, 700],
 	},
-	Wolfskie: {
+	'Wolfskie': {
 		power: 5600,
 		effs: [0, 0, 0, 100, 0, 0, 0, 0, 0, 0],
 	},
-	Wordsmith: {
+	'Wordsmith': {
 		power: 3000,
 		effs: [0, 0, 0, 100, 0, 175, 0, 100, 0, 0],
 	},
-	Worker: {
+	'Worker': {
 		power: 635,
 		effs: [0, 0, 0, 0, 0, 100, 0, 175, 0, 0],
 	},
@@ -4393,7 +4393,7 @@ const allMiceInfo = {
 		power: 2100,
 		effs: [100, 100, 100, 100, 0, 100, 100, 100, 125, 100],
 	},
-	Yeti: {
+	'Yeti': {
 		power: 6500,
 		effs: [0, 0, 0, 100, 0, 0, 0, 0, 0, 0],
 	},
@@ -4405,11 +4405,11 @@ const allMiceInfo = {
 		power: 28000,
 		effs: [0, 0, 0, 0, 0, 0, 600, 0, 0, 0],
 	},
-	Zephyr: {
+	'Zephyr': {
 		power: 4100,
 		effs: [100, 100, 100, 100, 25, 75, 400, 75, 0, 0],
 	},
-	Zombie: {
+	'Zombie': {
 		power: 920,
 		effs: [100, 0, 100, 0, 0, 100, 200, 25, 0, 0],
 	},
@@ -4457,7 +4457,7 @@ const allMiceInfo = {
 		power: 20000,
 		effs: [0, 0, 0, 0, 0, 0, 0, 500, 0, 0],
 	},
-	Beachcomber: {
+	'Beachcomber': {
 		power: 8000,
 		effs: [0, 0, 0, 100, 0, 0, 0, 0, 0, 0],
 	},
@@ -4533,15 +4533,15 @@ const allMiceInfo = {
 		power: 9800,
 		effs: [0, 0, 100, 0, 0, 0, 0, 0, 0, 0],
 	},
-	Pinkielina: {
+	'Pinkielina': {
 		power: 11000,
 		effs: [0, 0, 100, 0, 0, 0, 0, 0, 0, 0],
 	},
-	Fibbocchio: {
+	'Fibbocchio': {
 		power: 12000,
 		effs: [0, 0, 100, 0, 0, 0, 0, 0, 0, 0],
 	},
-	Greenbeard: {
+	'Greenbeard': {
 		power: 11500,
 		effs: [0, 0, 100, 0, 0, 0, 0, 0, 0, 0],
 	},
@@ -4557,7 +4557,7 @@ const allMiceInfo = {
 		power: 90000,
 		effs: [0, 0, 400, 0, 0, 0, 0, 0, 0, 0],
 	},
-	Mythweaver: {
+	'Mythweaver': {
 		power: 200000,
 		effs: [0, 0, 750, 0, 0, 0, 0, 0, 0, 0],
 	},
