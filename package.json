@@ -8,10 +8,8 @@
   },
   "author": "Brad Parbs <brad@bradparbs.com> (https://bradparbs.com/)",
   "license": "MIT",
-  "dependencies": {
-    "eslint": "^8.16.0"
-  },
   "devDependencies": {
+    "eslint": "^8.16.0",
     "@wordpress/eslint-plugin": "^12.9.0"
   }
 }

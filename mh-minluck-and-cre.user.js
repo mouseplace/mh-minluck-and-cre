@@ -76,6 +76,22 @@ function addStyles() {
 	.chro-minluck-data-bad {
 		color: #990000;
 	}
+
+	.minluck-indicator-all-good {
+		border-top: 5px solid blue;
+	}
+
+	.minluck-indicator-good {
+		border-top: 5px solid #2f82ec;
+	}
+
+	.minluck-indicator-bad {
+		border-top: 5px solid #990000;
+	}
+
+	.minluck-indicator-none {
+		border-top: none;
+	}
 	`;
 	document.head.appendChild(style);
 }
@@ -4641,6 +4657,8 @@ function renderBox(list) {
 		crheader.innerText = 'CRE';
 		table.appendChild(crheader);
 
+		let totalStats = { good: 0, bad: 0, okay: 0, total: 0 };
+
 		for (let i = 0; i < list.length; i++) {
 			const mouseNameConverted = list[ i ];
 			const powerIndex = allType.indexOf(powerType);
@@ -4665,12 +4683,15 @@ function renderBox(list) {
 			const catchRate = document.createElement('td');
 			catchRate.innerText = catchRateString;
 			if (catchRateString === '100.00%') {
+				totalStats.good += 1;
 				catchRate.className = 'chro-minluck-data chro-minluck-data-good';
 			} else if ((parseInt(catchRateString)) <= 60) {
+				totalStats.bad += 1;
 				catchRate.className = 'chro-minluck-data chro-minluck-data-bad';
 			} else {
 				catchRate.className = 'chro-minluck-data';
 			}
+			totalStats.total += 1;
 			row.appendChild(catchRate);
 
 			table.appendChild(row);
@@ -4679,6 +4700,24 @@ function renderBox(list) {
 		minluckList.appendChild(table);
 
 		$('.campPage-trap-statsContainer').append(minluckList);
+
+		const trap = document.getElementsByClassName('trapImageView-layerWrapper')[ 0 ];
+
+		trap.classList.remove('minluck-indicator-all-good');
+		trap.classList.remove('minluck-indicator-bad');
+		trap.classList.remove('minluck-indicator-good');
+		trap.classList.remove('minluck-indicator-none');
+
+		if (totalStats.good === totalStats.total) {
+			trap.classList.add('minluck-indicator-all-good');
+		} else if (totalStats.bad === totalStats.total) {
+			trap.classList.add('minluck-indicator-bad');
+		} else if (totalStats.good > totalStats.total / 2) {
+			trap.classList.add('minluck-indicator-good');
+		} else {
+			trap.classList.add('minluck-indicator-none');
+		}
+
 		resolve();
 	});
 }
