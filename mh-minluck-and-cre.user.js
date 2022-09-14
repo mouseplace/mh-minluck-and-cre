@@ -1,6 +1,6 @@
 // ==UserScript==
 // @name         🐭️ MouseHunt - Minluck & Catch Rate Estimate
-// @version      1.2.1
+// @version      1.2.2
 // @description  View the minluck and catch rate estimate, right on the camp page.
 // @license      MIT
 // @author       bradp
@@ -4581,9 +4581,17 @@
 			mintable.remove();
 		}
 
-		const power = document.querySelector('.campPage-trap-trapStat.power').innerText.match(/\d/g).join('');
-		const luck = document.querySelector('.campPage-trap-trapStat.luck').innerText.match(/\d/g).join('');
-		const powerType = document.querySelector('.campPage-trap-trapStat.power').innerText.match(/[A-Za-z]/g).join('');
+		const powerEl = document.querySelector('.campPage-trap-trapStat.power');
+		const luckEl = document.querySelector('.campPage-trap-trapStat.luck');
+		const powerTypeEl = document.querySelector('.campPage-trap-trapStat.power');
+
+		if ( ! powerEl || ! luckEl || ! powerTypeEl) {
+			return;
+		}
+
+		const luck = luckEl.innerText.match(/\d/g).join('');
+		const power = powerEl.innerText.match(/\d/g).join('');
+		const powerType = powerTypeEl.innerText.match(/[A-Za-z]/g).join('');
 
 		const minluckList = document.createElement('div');
 		minluckList.id = 'minluck-list';
