@@ -1,6 +1,6 @@
 // ==UserScript==
 // @name         🐭️ MouseHunt - Minluck & Catch Rate Estimate
-// @version      1.1.0
+// @version      1.2.0
 // @description  View the minluck and catch rate estimate, right on the camp page.
 // @license      MIT
 // @author       bradp
@@ -4680,11 +4680,12 @@
 
 	const getUserHash = () => {
 		// eslint-disable-next-line no-undef
-		if (unsafeWindow.user && unsafeWindow.user.hash) {
+		if (typeof unsafeWindow !== 'undefined' && unsafeWindow.user.unique_hash) {
 			// eslint-disable-next-line no-undef
-			return unsafeWindow.user.hash;
+			return unsafeWindow.user.unique_hash;
 		}
 
+		// if window.user exists, return the hash
 		if (window.user && window.user.unique_hash) {
 			return window.user.unique_hash;
 		}
@@ -4743,7 +4744,9 @@
 			minluckButton.textContent = '🐭️ Minluck & Catch Rate Estimate';
 
 			const statsContainer = document.querySelector('.campPage-trap-statsContainer');
-			statsContainer.appendChild(minluckButton);
+			if ( statsContainer ) {
+				statsContainer.appendChild(minluckButton);
+			}
 		}
 	};
 
