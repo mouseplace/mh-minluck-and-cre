@@ -1,6 +1,6 @@
 // ==UserScript==
 // @name         🐭️ MouseHunt - Minluck & Catch Rate Estimate
-// @version      1.2.2
+// @version      1.2.3
 // @description  View the minluck and catch rate estimate, right on the camp page.
 // @license      MIT
 // @author       bradp
@@ -4576,6 +4576,10 @@
 
 
 	function renderList(list) {
+		const minWrap = document.getElementById('minluck-list');
+		if (minWrap) {
+			minWrap.remove();
+		}
 		const mintable = document.getElementById('minluck-list-table');
 		if (mintable) {
 			mintable.remove();
