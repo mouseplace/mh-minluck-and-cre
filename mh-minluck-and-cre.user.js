@@ -1,6 +1,6 @@
 // ==UserScript==
 // @name         🐭️ MouseHunt - Minluck & Catch Rate Estimate
-// @version      1.2.3
+// @version      1.3.0
 // @description  View the minluck and catch rate estimate, right on the camp page.
 // @license      MIT
 // @author       bradp
@@ -149,6 +149,10 @@
 			power: 8709,
 			effs: [0, 0, 0, 100, 0, 0, 0, 0, 0, 0],
 		},
+		'Angry Aphid': {
+			power: 10000,
+			effs: [0, 0, 0, 0, 0, 0, 0, 100, 0, 0],
+		},
 		'Angry Train Staff': {
 			power: 3499,
 			effs: [0, 0, 0, 0, 0, 0, 0, 0, 200, 0],
@@ -168,6 +172,10 @@
 		'Archer': {
 			power: 1500,
 			effs: [0, 0, 0, 0, 0, 100, 0, 175, 0, 0],
+		},
+		'Architeuthulhu of the Abyss': {
+			power: 100000,
+			effs: [0, 0, 0, 400, 0, 0, 0, 0, 0, 0],
 		},
 		'Aristo-Cat Burglar': {
 			power: 14590,
@@ -261,6 +269,10 @@
 			power: 10851,
 			effs: [100, 0, 300, 0, 0, 0, 0, 0, 0, 0],
 		},
+		'Beachcomber': {
+			power: 8000,
+			effs: [0, 0, 0, 100, 0, 0, 0, 0, 0, 0],
+		},
 		'Bear': {
 			power: 700,
 			effs: [100, 0, 0, 100, 0, 100, 100, 175, 100, 0],
@@ -308,6 +320,10 @@
 		'Birthday': {
 			power: 765,
 			effs: [100, 100, 100, 100, 100, 100, 100, 100, 100, 100],
+		},
+		'Bitter Grammarian': {
+			power: 90000,
+			effs: [0, 0, 400, 0, 0, 0, 0, 0, 0, 0],
 		},
 		'Bitter Root': {
 			power: 6825,
@@ -388,6 +404,10 @@
 		'Brimstone': {
 			power: 3200,
 			effs: [150, 0, 125, 0, 0, 0, 200, 0, 0, 0],
+		},
+		'Brothers Grimmaus': {
+			power: 9000,
+			effs: [0, 0, 100, 0, 0, 0, 0, 0, 0, 0],
 		},
 		'Brown': {
 			power: 3,
@@ -488,6 +508,10 @@
 		'Carefree Cook': {
 			power: 2200,
 			effs: [100, 100, 100, 100, 0, 100, 100, 100, 100, 100],
+		},
+		'Careless Catfish': {
+			power: 10000,
+			effs: [0, 0, 0, 100, 0, 0, 0, 0, 0, 0],
 		},
 		'Caretaker': {
 			power: 1600,
@@ -789,6 +813,10 @@
 			power: 1000,
 			effs: [10, 10, 10, 10, 0, 10, 10, 10, 10, 100],
 		},
+		'Covetous Coastguard': {
+			power: 7000,
+			effs: [0, 0, 0, 100, 0, 0, 0, 0, 0, 0],
+		},
 		'Cowardly': {
 			power: 4,
 			effs: [100, 100, 100, 100, 0, 100, 100, 100, 100, 100],
@@ -816,6 +844,10 @@
 		'Crate Camo': {
 			power: 3751,
 			effs: [0, 0, 0, 0, 0, 0, 0, 0, 200, 0],
+		},
+		'Crazed Cultivator': {
+			power: 7000,
+			effs: [0, 0, 0, 0, 0, 0, 0, 100, 0, 0],
 		},
 		'Crazed Goblin': {
 			power: 1500,
@@ -1381,6 +1413,10 @@
 			power: 12675,
 			effs: [0, 0, 0, 0, 0, 0, 200, 0, 0, 0],
 		},
+		'Fibbocchio': {
+			power: 12000,
+			effs: [0, 0, 100, 0, 0, 0, 0, 0, 0, 0],
+		},
 		'Fiddler': {
 			power: 2000,
 			effs: [50, 50, 50, 50, 25, 50, 50, 200, 0, 0],
@@ -1408,6 +1444,10 @@
 		'Firefly': {
 			power: 3691,
 			effs: [0, 0, 0, 0, 0, 0, 0, 150, 0, 0],
+		},
+		'Flamboyant Flautist': {
+			power: 12500,
+			effs: [0, 0, 100, 0, 0, 0, 0, 0, 0, 0],
 		},
 		'Flame Archer': {
 			power: 5200,
@@ -1689,6 +1729,10 @@
 			power: 2100,
 			effs: [100, 100, 100, 100, 0, 100, 100, 100, 100, 100],
 		},
+		'Greenbeard': {
+			power: 11500,
+			effs: [0, 0, 100, 0, 0, 0, 0, 0, 0, 0],
+		},
 		'Grey': {
 			power: 2,
 			effs: [100, 100, 100, 100, 0, 100, 100, 100, 100, 100],
@@ -1700,6 +1744,10 @@
 		'Greyrun': {
 			power: 913,
 			effs: [10, 10, 10, 10, 0, 10, 10, 10, 10, 100],
+		},
+		'Grit Grifter': {
+			power: 10000,
+			effs: [0, 0, 0, 0, 0, 0, 0, 100, 0, 0],
 		},
 		'Grizzled Silth': {
 			power: 2000,
@@ -1737,6 +1785,10 @@
 			power: 18050,
 			effs: [0, 0, 0, 0, 0, 0, 0, 100, 0, 0],
 		},
+		'Hans Cheesetian Squeakersen': {
+			power: 8000,
+			effs: [0, 0, 100, 0, 0, 0, 0, 0, 0, 0],
+		},
 		'Hapless': {
 			power: 570,
 			effs: [0, 0, 0, 0, 0, 100, 0, 175, 0, 0],
@@ -1746,8 +1798,8 @@
 			effs: [25, 25, 25, 25, 25, 100, 25, 100, 0, 0],
 		},
 		'Harbinger of Death': {
-			power: 4590,
-			effs: [0, 0, 0, 0, 0, 0, 0, 0, 0, 216],
+			power: 4250,
+			effs: [0, 0, 0, 0, 0, 0, 0, 0, 0, 200],
 		},
 		'Hardboiled': {
 			power: 2500,
@@ -1837,6 +1889,10 @@
 			power: 2300,
 			effs: [0, 0, 0, 0, 0, 0, 0, 150, 0, 0],
 		},
+		'Humphrey Dumphrey': {
+			power: 9500,
+			effs: [0, 0, 100, 0, 0, 0, 0, 0, 0, 0],
+		},
 		'Huntereater': {
 			power: 12551,
 			effs: [0, 0, 200, 0, 0, 0, 0, 0, 0, 0],
@@ -1860,6 +1916,10 @@
 		'Hypnotized Gunslinger': {
 			power: 10000,
 			effs: [150, 0, 0, 0, 0, 0, 100, 0, 0, 0],
+		},
+		'Ice Regent': {
+			power: 13000,
+			effs: [0, 0, 100, 0, 0, 0, 0, 0, 0, 0],
 		},
 		'Iceberg Sculptor': {
 			power: 755,
@@ -2001,6 +2061,10 @@
 			power: 15532,
 			effs: [0, 100, 0, 0, 0, 0, 0, 0, 0, 0],
 		},
+		'Land Loafer': {
+			power: 8000,
+			effs: [0, 0, 0, 0, 0, 0, 0, 100, 0, 0],
+		},
 		'Lasso Cowgirl': {
 			power: 2000,
 			effs: [0, 0, 0, 0, 0, 0, 0, 0, 200, 0],
@@ -2033,6 +2097,14 @@
 			power: 25101,
 			effs: [0, 0, 0, 0, 0, 300, 0, 300, 300, 0],
 		},
+		'Little Bo Squeak': {
+			power: 10000,
+			effs: [0, 0, 100, 0, 0, 0, 0, 0, 0, 0],
+		},
+		'Little Miss Fluffet': {
+			power: 9000,
+			effs: [0, 0, 100, 0, 0, 0, 0, 0, 0, 0],
+		},
 		'Living Ice': {
 			power: 2000,
 			effs: [0, 0, 0, 100, 0, 0, 0, 0, 0, 0],
@@ -2040,6 +2112,10 @@
 		'Living Salt': {
 			power: 3000,
 			effs: [0, 0, 0, 100, 0, 0, 0, 0, 0, 0],
+		},
+		'Loathsome Locust': {
+			power: 20000,
+			effs: [0, 0, 0, 0, 0, 0, 0, 500, 0, 0],
 		},
 		'Lockpick': {
 			power: 10,
@@ -2100,6 +2176,10 @@
 		'Mad Elf': {
 			power: 2100,
 			effs: [100, 75, 75, 75, 0, 75, 75, 75, 75, 75],
+		},
+		'Madame d\'Ormouse': {
+			power: 8500,
+			effs: [0, 0, 100, 0, 0, 0, 0, 0, 0, 0],
 		},
 		'Mage Weaver': {
 			power: 29999,
@@ -2201,6 +2281,10 @@
 			power: 10000,
 			effs: [0, 0, 0, 0, 0, 100, 0, 175, 0, 0],
 		},
+		'Matriarch Gander': {
+			power: 7000,
+			effs: [0, 0, 100, 0, 0, 0, 0, 0, 0, 0],
+		},
 		'Matron of Machinery': {
 			power: 16700,
 			effs: [100, 0, 300, 0, 0, 0, 0, 0, 0, 0],
@@ -2216,6 +2300,10 @@
 		'Medicine': {
 			power: 1250,
 			effs: [10, 10, 10, 10, 0, 10, 10, 10, 10, 100],
+		},
+		'Melodramatic Minnow': {
+			power: 11000,
+			effs: [0, 0, 0, 100, 0, 0, 0, 0, 0, 0],
 		},
 		'Menace of the Rift': {
 			power: 5003,
@@ -2256,6 +2344,10 @@
 		'Micro': {
 			power: 866,
 			effs: [10, 10, 10, 10, 0, 10, 10, 10, 10, 100],
+		},
+		'Mighty Mite': {
+			power: 13000,
+			effs: [0, 0, 0, 0, 0, 0, 0, 100, 0, 0],
 		},
 		'Mighty Mole': {
 			power: 1000,
@@ -2501,6 +2593,10 @@
 			power: 28901,
 			effs: [100, 0, 300, 0, 0, 0, 0, 0, 0, 0],
 		},
+		'Mythweaver': {
+			power: 200000,
+			effs: [0, 0, 750, 0, 0, 0, 0, 0, 0, 0],
+		},
 		'Nachore Golem': {
 			power: 2235,
 			effs: [0, 0, 0, 0, 0, 0, 100, 0, 0, 0],
@@ -2524,6 +2620,10 @@
 		'Necromancer': {
 			power: 2000,
 			effs: [125, 125, 125, 400, 25, 75, 125, 75, 0, 0],
+		},
+		'Nefarious Nautilus': {
+			power: 15000,
+			effs: [0, 0, 0, 100, 0, 0, 0, 0, 0, 0],
 		},
 		'Nerg Chieftain': {
 			power: 12600,
@@ -2777,6 +2877,10 @@
 			power: 635,
 			effs: [0, 0, 0, 175, 0, 100, 0, 100, 0, 0],
 		},
+		'Pinkielina': {
+			power: 11000,
+			effs: [0, 0, 100, 0, 0, 0, 0, 0, 0, 0],
+		},
 		'Pintail': {
 			power: 600,
 			effs: [100, 100, 100, 100, 100, 100, 100, 100, 100, 100],
@@ -2807,6 +2911,10 @@
 		},
 		'Polar Bear': {
 			power: 5200,
+			effs: [0, 0, 0, 100, 0, 0, 0, 0, 0, 0],
+		},
+		'Pompous Perch': {
+			power: 9000,
 			effs: [0, 0, 0, 100, 0, 0, 0, 0, 0, 0],
 		},
 		'Portable Generator': {
@@ -2844,6 +2952,10 @@
 		'Primal': {
 			power: 12345,
 			effs: [0, 0, 0, 0, 0, 0, 200, 0, 0, 0],
+		},
+		'Princess and the Olive': {
+			power: 9800,
+			effs: [0, 0, 100, 0, 0, 0, 0, 0, 0, 0],
 		},
 		'Princess Fist': {
 			power: 15500,
@@ -3097,6 +3209,10 @@
 			power: 3000,
 			effs: [100, 100, 100, 100, 0, 100, 100, 100, 100, 100],
 		},
+		'Root Rummager': {
+			power: 9000,
+			effs: [0, 0, 0, 0, 0, 0, 0, 100, 0, 0],
+		},
 		'RR-8': {
 			power: 7900,
 			effs: [100, 0, 300, 0, 0, 0, 0, 0, 0, 0],
@@ -3160,6 +3276,10 @@
 		'Sand Pilgrim': {
 			power: 3000,
 			effs: [0, 0, 0, 0, 0, 0, 100, 0, 0, 0],
+		},
+		'Sand Sifter': {
+			power: 9000,
+			effs: [0, 0, 0, 100, 0, 0, 0, 0, 0, 0],
 		},
 		'Sandmouse': {
 			power: 1800,
@@ -3328,6 +3448,10 @@
 		'Sinister Egg Painter': {
 			power: 1100,
 			effs: [100, 100, 100, 100, 0, 100, 100, 100, 100, 100],
+		},
+		'Sinister Squid': {
+			power: 13000,
+			effs: [0, 0, 0, 100, 0, 0, 0, 0, 0, 0],
 		},
 		'Sir Fleekio': {
 			power: 16700,
@@ -3865,6 +3989,10 @@
 			power: 200,
 			effs: [100, 0, 0, 100, 0, 100, 100, 175, 100, 0],
 		},
+		'Tackle Tracker': {
+			power: 10000,
+			effs: [0, 0, 0, 100, 0, 0, 0, 0, 0, 0],
+		},
 		'Tadpole': {
 			power: 5400,
 			effs: [0, 0, 0, 100, 0, 0, 0, 0, 0, 0],
@@ -4213,6 +4341,10 @@
 			power: 10000,
 			effs: [0, 100, 0, 0, 0, 0, 0, 0, 0, 0],
 		},
+		'Vicious Vampire Squid': {
+			power: 16000,
+			effs: [0, 0, 0, 100, 0, 0, 0, 0, 0, 0],
+		},
 		'Vigilant Ward': {
 			power: 5000,
 			effs: [0, 0, 0, 0, 0, 0, 0, 0, 0, 200],
@@ -4329,6 +4461,10 @@
 			power: 1800,
 			effs: [101, 101, 101, 101, 101, 101, 101, 101, 101, 300],
 		},
+		'Wily Weevil': {
+			power: 12000,
+			effs: [0, 0, 0, 0, 0, 0, 0, 100, 0, 0],
+		},
 		'Wind Warrior': {
 			power: 21200,
 			effs: [150, 50, 0, 0, 0, 0, 100, 0, 0, 0],
@@ -4413,142 +4549,6 @@
 			power: 73001,
 			effs: [0, 0, 0, 0, 0, 0, 0, 5500, 0, 0],
 		},
-		'Land Loafer': {
-			power: 8000,
-			effs: [0, 0, 0, 0, 0, 0, 0, 100, 0, 0],
-		},
-		'Root Rummager': {
-			power: 9000,
-			effs: [0, 0, 0, 0, 0, 0, 0, 100, 0, 0],
-		},
-		'Grit Grifter': {
-			power: 10000,
-			effs: [0, 0, 0, 0, 0, 0, 0, 100, 0, 0],
-		},
-		'Crazed Cultivator': {
-			power: 7000,
-			effs: [0, 0, 0, 0, 0, 0, 0, 100, 0, 0],
-		},
-		'Angry Aphid': {
-			power: 10000,
-			effs: [0, 0, 0, 0, 0, 0, 0, 100, 0, 0],
-		},
-		'Wily Weevil': {
-			power: 12000,
-			effs: [0, 0, 0, 0, 0, 0, 0, 100, 0, 0],
-		},
-		'Mighty Mite': {
-			power: 13000,
-			effs: [0, 0, 0, 0, 0, 0, 0, 100, 0, 0],
-		},
-		'Loathsome Locust': {
-			power: 20000,
-			effs: [0, 0, 0, 0, 0, 0, 0, 500, 0, 0],
-		},
-		'Beachcomber': {
-			power: 8000,
-			effs: [0, 0, 0, 100, 0, 0, 0, 0, 0, 0],
-		},
-		'Sand Sifter': {
-			power: 9000,
-			effs: [0, 0, 0, 100, 0, 0, 0, 0, 0, 0],
-		},
-		'Tackle Tracker': {
-			power: 10000,
-			effs: [0, 0, 0, 100, 0, 0, 0, 0, 0, 0],
-		},
-		'Covetous Coastguard': {
-			power: 7000,
-			effs: [0, 0, 0, 100, 0, 0, 0, 0, 0, 0],
-		},
-		'Pompous Perch': {
-			power: 9000,
-			effs: [0, 0, 0, 100, 0, 0, 0, 0, 0, 0],
-		},
-		'Careless Catfish': {
-			power: 10000,
-			effs: [0, 0, 0, 100, 0, 0, 0, 0, 0, 0],
-		},
-		'Melodramatic Minnow': {
-			power: 11000,
-			effs: [0, 0, 0, 100, 0, 0, 0, 0, 0, 0],
-		},
-		'Sinister Squid': {
-			power: 13000,
-			effs: [0, 0, 0, 100, 0, 0, 0, 0, 0, 0],
-		},
-		'Nefarious Nautilus': {
-			power: 15000,
-			effs: [0, 0, 0, 100, 0, 0, 0, 0, 0, 0],
-		},
-		'Vicious Vampire Squid': {
-			power: 16000,
-			effs: [0, 0, 0, 100, 0, 0, 0, 0, 0, 0],
-		},
-		'Architeuthulhu of the Abyss': {
-			power: 100000,
-			effs: [0, 0, 0, 400, 0, 0, 0, 0, 0, 0],
-		},
-		'Hans Cheesetian Squeakersen': {
-			power: 8000,
-			effs: [0, 0, 100, 0, 0, 0, 0, 0, 0, 0],
-		},
-		'Brothers Grimmaus': {
-			power: 9000,
-			effs: [0, 0, 100, 0, 0, 0, 0, 0, 0, 0],
-		},
-		'Madame d\'Ormouse': {
-			power: 8500,
-			effs: [0, 0, 100, 0, 0, 0, 0, 0, 0, 0],
-		},
-		'Matriarch Gander': {
-			power: 7000,
-			effs: [0, 0, 100, 0, 0, 0, 0, 0, 0, 0],
-		},
-		'Little Miss Fluffet': {
-			power: 9000,
-			effs: [0, 0, 100, 0, 0, 0, 0, 0, 0, 0],
-		},
-		'Humphrey Dumphrey': {
-			power: 9500,
-			effs: [0, 0, 100, 0, 0, 0, 0, 0, 0, 0],
-		},
-		'Little Bo Squeak': {
-			power: 10000,
-			effs: [0, 0, 100, 0, 0, 0, 0, 0, 0, 0],
-		},
-		'Princess and the Olive': {
-			power: 9800,
-			effs: [0, 0, 100, 0, 0, 0, 0, 0, 0, 0],
-		},
-		'Pinkielina': {
-			power: 11000,
-			effs: [0, 0, 100, 0, 0, 0, 0, 0, 0, 0],
-		},
-		'Fibbocchio': {
-			power: 12000,
-			effs: [0, 0, 100, 0, 0, 0, 0, 0, 0, 0],
-		},
-		'Greenbeard': {
-			power: 11500,
-			effs: [0, 0, 100, 0, 0, 0, 0, 0, 0, 0],
-		},
-		'Flamboyant Flautist': {
-			power: 12500,
-			effs: [0, 0, 100, 0, 0, 0, 0, 0, 0, 0],
-		},
-		'Ice Regent': {
-			power: 13000,
-			effs: [0, 0, 100, 0, 0, 0, 0, 0, 0, 0],
-		},
-		'Bitter Grammarian': {
-			power: 90000,
-			effs: [0, 0, 400, 0, 0, 0, 0, 0, 0, 0],
-		},
-		'Mythweaver': {
-			power: 200000,
-			effs: [0, 0, 750, 0, 0, 0, 0, 0, 0, 0],
-		},
 	};
 
 	const allType = [
@@ -4574,7 +4574,6 @@
 		renderList(miceNames);
 	};
 
-
 	function renderList(list) {
 		const minWrap = document.getElementById('minluck-list');
 		if (minWrap) {
@@ -4589,7 +4588,7 @@
 		const luckEl = document.querySelector('.campPage-trap-trapStat.luck');
 		const powerTypeEl = document.querySelector('.campPage-trap-trapStat.power');
 
-		if ( ! powerEl || ! luckEl || ! powerTypeEl) {
+		if (! powerEl || ! luckEl || ! powerTypeEl) {
 			return;
 		}
 
@@ -4617,7 +4616,7 @@
 		crheader.innerText = 'CRE';
 		table.appendChild(crheader);
 
-		let totalStats = { good: 0, bad: 0, okay: 0, total: 0 };
+		const totalStats = { good: 0, bad: 0, okay: 0, total: 0 };
 
 		for (let i = 0; i < list.length; i++) {
 			const mouseNameConverted = list[ i ];
@@ -4660,7 +4659,9 @@
 		minluckList.appendChild(table);
 
 		const statsContainer = document.querySelector('.campPage-trap-statsContainer');
-		statsContainer.appendChild(minluckList);
+		if (statsContainer) {
+			statsContainer.appendChild(minluckList);
+		}
 
 		const trap = document.getElementsByClassName('trapImageView-layerWrapper')[ 0 ];
 
@@ -4719,7 +4720,7 @@
 		const responseText = await response.text();
 		const data = JSON.parse(responseText);
 
-		if (!data.effectiveness) {
+		if (! data.effectiveness) {
 			return;
 		}
 
@@ -4729,14 +4730,22 @@
 	function replaceInfinity(mousePower, eff) {
 		// Can't evalute infinity symbol, so was replaced with 9999 as minluck instead
 		const infinitySym = String.fromCharCode(0x221E);
+		eff = eff / 100;
+
 		if (eff === 0) {
 			return infinitySym;
 		}
-		const minluck = Math.ceil(Math.ceil(Math.sqrt(mousePower / 2)) / Math.min(eff / 100, 1.4));
+
+		const minluck = Math.ceil(Math.ceil(Math.sqrt(mousePower / 2)) / Math.min(eff, 1.4));
 		if (minluck >= 9999) {
 			return infinitySym;
 		}
-		return minluck;
+
+		if (2 * Math.pow(Math.floor(Math.min(1.4, eff) * minluck), 2) >= mousePower) {
+			return minluck;
+		}
+
+		return minluck + 1;
 	}
 
 	function convertToCR(power, luck, mPower, mEff) {
@@ -4756,7 +4765,7 @@
 			minluckButton.textContent = '🐭️ Minluck & Catch Rate Estimate';
 
 			const statsContainer = document.querySelector('.campPage-trap-statsContainer');
-			if ( statsContainer ) {
+			if (statsContainer) {
 				statsContainer.appendChild(minluckButton);
 			}
 		}
