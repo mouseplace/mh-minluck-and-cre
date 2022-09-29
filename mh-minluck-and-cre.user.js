@@ -34,6 +34,20 @@
 	};
 
 	/**
+	 * Get the current page slug.
+	 *
+	 * @return {string} The page slug.
+	 */
+	 const getCurrentPage = () => {
+		const container = document.getElementById('mousehuntContainer');
+		if (! container || container.classList.length <= 0) {
+			return null;
+		}
+
+		return container.classList[ 0 ].replace('Page', '').toLowerCase();
+	};
+
+	/**
 	 * Do something when ajax requests are completed.
 	 *
 	 * @param {Function} callback    The callback to call when an ajax request is completed.
@@ -66,6 +80,30 @@
 			});
 			req.apply(this, arguments);
 		};
+	};
+
+	/**
+	 * Do something when the page or tab changes.
+	 *
+	 * @param {Object}   callbacks
+	 * @param {Function} callbacks.show   The callback to call when the overlay is shown.
+	 * @param {Function} callbacks.hide   The callback to call when the overlay is hidden.
+	 * @param {Function} callbacks.change The callback to call when the overlay is changed.
+	 */
+	const onPageChange = (callbacks) => {
+		const observer = new MutationObserver(() => {
+			if (callbacks.change) {
+				callbacks.change();
+			}
+		});
+
+		const observeTarget = document.getElementById('mousehuntContainer');
+		if (observeTarget) {
+			observer.observe(observeTarget, {
+				attributes: true,
+				attributeFilter: ['class']
+			});
+		}
 	};
 
 	const allMiceInfo = {
@@ -4565,6 +4603,10 @@
 	];
 
 	const updateMinLucks = async () => {
+		if ('camp' !== getCurrentPage()) {
+			return;
+		}
+
 		const effectiveness = await getMiceEffectivness();
 
 		const miceNames = Object.values(effectiveness)
@@ -4785,8 +4827,8 @@
 	}
 
 	#minluck-list table {
-		margin-top: 10px;
-		margin-left: 10px;
+		margin: 0 10px 10px 10px;
+		width: 100%;
 	}
 
 	#minluck-list table th {
@@ -4812,11 +4854,11 @@
 	}
 
 	.chro-minluck-data-good {
-		color: #228B22;
+		color: #138f13;
 	}
 
 	.chro-minluck-data-bad {
-		color: #990000;
+		color: #bb4646;
 	}
 
 	.minluck-indicator-all-good {
@@ -4831,14 +4873,20 @@
 		border-top: 5px solid #990000;
 	}
 
-	.minluck-indicator-none {
+	.minluck-indicator-all-good,
+	.minluck-indicator-good,
+	.minluck-indicator-bad {
 		border-top: none;
 	}`);
 
 	onAjaxRequest(updateMinLucks, 'managers/ajax/users/changetrap.php');
+	onPageChange({ change: updateMinLucks });
+
+	makeMinLuckButton();
+	updateMinLucks();
 
 	setTimeout(() => {
 		makeMinLuckButton();
 		updateMinLucks();
-	}, 1000);
+	}, 750);
 }());
