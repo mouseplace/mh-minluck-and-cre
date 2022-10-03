@@ -1,6 +1,6 @@
 // ==UserScript==
 // @name         🐭️ MouseHunt - Minluck & Catch Rate Estimate
-// @version      1.40.0
+// @version      1.40.1
 // @description  View the minluck and catch rate estimate, right on the camp page.
 // @license      MIT
 // @author       bradp
@@ -1068,8 +1068,8 @@
 			effs: [50, 50, 50, 50, 25, 50, 50, 200, 0, 0],
 		},
 		'Dancing Assassin': {
-			power: 46501,
-			effs: [0, 0, 0, 0, 0, 0, 0, 0, 0, 250],
+			power: 51150,
+			effs: [0, 0, 0, 0, 0, 0, 0, 0, 0, 275],
 		},
 		'Dangerous Duo': {
 			power: 4999,
@@ -2486,6 +2486,10 @@
 		'Monstrous Black Widow': {
 			power: 9000,
 			effs: [10, 10, 10, 10, 0, 10, 10, 10, 10, 200],
+		},
+		'Monstrous Midge': {
+			power: 110000,
+			effs: [0, 0, 400, 0, 0, 0, 0, 0, 0, 0],
 		},
 		'Moosker': {
 			power: 45,
