@@ -55,7 +55,14 @@
             "asyncArrow": "always"
         }],
         "space-in-parens": ["error", "never"],
-        "spaced-comment": ["error", "always"],
-        "quote-props": ["error", "consistent-as-needed"]
-    }
+        "spaced-comment": ["error", "always"]
+    },
+    "overrides": [{
+        "files": ["*.md"],
+        "parser": "eslint-plugin-markdownlint/parser",
+        "extends": ["plugin:markdownlint/recommended"],
+        "rules": {
+            "markdownlint/md013": "off"
+        }
+    }]
 }
