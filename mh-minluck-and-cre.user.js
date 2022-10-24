@@ -1,6 +1,6 @@
 // ==UserScript==
 // @name         🐭️ MouseHunt - Minluck & Catch Rate Estimate
-// @version      1.40.2
+// @version      1.40.3
 // @description  View the minluck and catch rate estimate, right on the camp page.
 // @license      MIT
 // @author       bradp
