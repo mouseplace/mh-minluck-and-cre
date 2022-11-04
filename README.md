@@ -1,4 +1,4 @@
-# mh-minluck-and-cre
+# 🐭️ MouseHunt - Minluck & Catch Rate Estimate
 
 A Userscript for [MouseHunt](https://mousehuntgame.com) that shows the minluck and catch rate estimate for mice.
 
