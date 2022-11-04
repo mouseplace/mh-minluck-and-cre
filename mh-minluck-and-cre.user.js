@@ -67,7 +67,7 @@
 					}
 
 					if (response.success || skipSuccess) {
-						if (!url) {
+						if (! url) {
 							callback(response);
 							return;
 						}
