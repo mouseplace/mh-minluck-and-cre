@@ -1180,7 +1180,7 @@
 	 * @param {string}   url         The url to match. If not provided, all ajax requests will be matched.
 	 * @param {boolean}  skipSuccess Skip the success check.
 	 */
-	const onAjaxRequest = (callback, url = null, skipSuccess = false) => {
+	const onAjaxRequest = (callback, url = false, skipSuccess = false) => {
 		const req = XMLHttpRequest.prototype.open;
 		XMLHttpRequest.prototype.open = function () {
 			this.addEventListener('load', function () {
@@ -1522,7 +1522,7 @@
 		border-top: none;
 	}`);
 
-	onAjaxRequest(updateMinLucks, 'managers/ajax/users/changetrap.php');
+	onAjaxRequest(updateMinLucks);
 	onPageChange({ change: updateMinLucks });
 
 	makeMinLuckButton();
