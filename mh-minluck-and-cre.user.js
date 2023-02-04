@@ -1,6 +1,6 @@
 // ==UserScript==
 // @name         🐭️ MouseHunt - Minluck & Catch Rate Estimate
-// @version      1.41.1
+// @version      1.41.2
 // @description  View the minluck and catch rate estimate, right on the camp page.
 // @license      MIT
 // @author       bradp
@@ -1312,15 +1312,15 @@
 			const catchRateString = convertToCR(power, luck, micePower, miceEff);
 
 			const row = document.createElement('tr');
-			row.className = 'chro-minluck-row';
+			row.className = 'minlucklist-minluck-row';
 
 			const mouseName = document.createElement('td');
 			mouseName.innerText = mouseNameConverted;
-			mouseName.className = 'chro-minluck-name';
+			mouseName.className = 'minlucklist-minluck-name';
 			row.appendChild(mouseName);
 
 			const minLuck = document.createElement('td');
-			minLuck.className = 'chro-minluck-data' + (luck >= minluckString ? ' chro-minluck-data-good' : '');
+			minLuck.className = 'minlucklist-minluck-data' + (luck >= minluckString ? ' minlucklist-minluck-data-good' : '');
 			minLuck.innerText = minluckString;
 			row.appendChild(minLuck);
 
@@ -1328,12 +1328,12 @@
 			catchRate.innerText = catchRateString;
 			if (catchRateString === '100.00%') {
 				totalStats.good += 1;
-				catchRate.className = 'chro-minluck-data chro-minluck-data-good';
+				catchRate.className = 'minlucklist-minluck-data minlucklist-minluck-data-good';
 			} else if ((parseInt(catchRateString)) <= 60) {
 				totalStats.bad += 1;
-				catchRate.className = 'chro-minluck-data chro-minluck-data-bad';
+				catchRate.className = 'minlucklist-minluck-data minlucklist-minluck-data-bad';
 			} else {
-				catchRate.className = 'chro-minluck-data';
+				catchRate.className = 'minlucklist-minluck-data';
 			}
 			totalStats.total += 1;
 			row.appendChild(catchRate);
@@ -1487,20 +1487,24 @@
 		text-align: left;
 	}
 
-	.chro-minluck-name {
+	.minlucklist-minluck-name {
 		min-width: 85px;
+		white-space: nowrap;
+		overflow: hidden;
+		max-width: 150px;
+		text-overflow: ellipsis;
 	}
 
-	.chro-minluck-data {
+	.minlucklist-minluck-data {
 		text-align: center;
-		min-width: 80px;
+		min-width: 70px;
 	}
 
-	.chro-minluck-data-good {
+	.minlucklist-minluck-data-good {
 		color: #138f13;
 	}
 
-	.chro-minluck-data-bad {
+	.minlucklist-minluck-data-bad {
 		color: #bb4646;
 	}
 
