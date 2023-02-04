@@ -612,7 +612,7 @@
 		'Monster Tail'                   : { power: 3750,     effs: [0, 0, 0, 100, 0, 0, 0, 0, 0, 0] },
 		'Monstrous Abomination'          : { power: 24998,    effs: [10, 10, 10, 10, 0, 10, 10, 10, 10, 100] },
 		'Monstrous Black Widow'          : { power: 9000,     effs: [10, 10, 10, 10, 0, 10, 10, 10, 10, 200] },
-		'Monstrous Midge'                : { power: 110000,   effs: [0, 0, 400, 0, 0, 0, 0, 0, 0, 0] },
+		'Monstrous Midge'                : { power: 110000,   effs: [0, 0, 0, 0, 0, 0, 0, 400, 0, 0] },
 		'Moosker'                        : { power: 45,       effs: [100, 0, 0, 100, 0, 100, 100, 175, 100, 0] },
 		'Mossy Moosker'                  : { power: 2000,     effs: [10, 10, 10, 10, 0, 10, 10, 10, 10, 100] },
 		'Mouldy Mole'                    : { power: 5560,     effs: [0, 0, 100, 100, 0, 0, 0, 0, 0, 0] },
