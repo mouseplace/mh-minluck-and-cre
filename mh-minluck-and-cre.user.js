@@ -1458,7 +1458,7 @@
 
 	addStyles(`
 	#minluck-button {
-		margin-top: 5px;
+		margin-top: 10px;
 	}
 
 	#minluck-list {
