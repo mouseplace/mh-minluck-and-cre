@@ -1,6 +1,6 @@
 // ==UserScript==
 // @name         🐭️ MouseHunt - Minluck & Catch Rate Estimate
-// @version      1.41.2
+// @version      1.41.3
 // @description  View the minluck and catch rate estimate, right on the camp page.
 // @license      MIT
 // @author       bradp
@@ -1526,7 +1526,7 @@
 		border-top: none;
 	}`);
 
-	onAjaxRequest(updateMinLucks);
+	onAjaxRequest(updateMinLucks, '/managers/ajax/users/changetrap.php');
 	onPageChange({ change: updateMinLucks });
 
 	makeMinLuckButton();
